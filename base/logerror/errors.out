@@ -159,4 +159,22 @@ Possible error in table GDATA:
    The fuel efficiency for technology GNR_HP_ELEC_COP-900_Y-2020       is very small or very large (   9.00000).
 #
 Possible error in table GDATA:   The fuel efficiency for technology GNR_ST_WOOD_EXT_E-14             type GEXT  exceeds 100% in back pressure mode (value:    1.42800).
-Possible error in table GDATA:   The fuel efficiency for technology GNR_ST_WOOD_EXT_E-45             type GEXT  
+Possible error in table GDATA:   The fuel efficiency for technology GNR_ST_WOOD_EXT_E-45             type GEXT  exceeds 100% in back pressure mode (value:    1.03846).
+Possible error in table GDATA:   The fuel efficiency for technology LINKOPING_ST_COAL_EXT            type GEXT  exceeds 100% in back pressure mode (value:    1.24265).
+#
+Error in table GDATA:   The GDLIFETIME value for technology ADAM-1_ST_LIGNITE_EXT            must be a positive integer - it has no value.
+Error in table GDATA:   The GDLIFETIME value for technology ADAM-2_ST_LIGNITE_CON            must be a positive integer - it has no value.
+Error in table GDATA:   The GDLIFETIME value for technology AGG-DE4-E_ES_ELEC                must be a positive integer - it has no value.
+#
+Error in table GDATA:   The GDLIFETIME value for technology GNR_ENG_NGAS_EXT_E-44            must be a positive integer, value is        22.50.
+Error in table GDATA:   The GDLIFETIME value for technology GNR_ENG_RETORT-GAS_E-44          must be a positive integer, value is        22.50.
+Error in table GDATA:   The GDLIFETIME value for technology GNR_IND-DF_ELEC_E-100_MS-5-MW_Y- must be a positive integer, value is        12.50.
+#
+
+  111 errors were detected in the input data before simulation.
+See the file error2.inc for details about the error.
+
+BB4: Presently there are only rudimentaty checks on the solution - TODO
+
+BB4: Presently there are only rudimentaty checks on the solution - TODO
+

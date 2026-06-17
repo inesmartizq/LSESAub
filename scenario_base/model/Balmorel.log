@@ -1,25 +1,31 @@
---- Job Balmorel.gms Start 06/16/26 15:35:31 53.5.1 f2e5fac3 WEX-WEI x86 64bit/MS Windows
+
+--- Job Balmorel.gms Start 06/17/26 11:22:47 54.0.0 3d4dc8b6 WEX-WEI x86 64bit/MS Windows
 --- Applying:
-    C:\GAMS\53\gmsprmNT.txt
+    C:\GAMS\54\gmsprmNT.txt
 --- GAMS Parameters defined
-    Input C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\scenario_base\model\Balmorel.gms
+    Input "C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_base\model\Balmorel.gms"
     PageSize 0
-    ScrDir C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\scenario_base\model\225a\
-    SysDir C:\GAMS\53\
+    ScrDir "C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_base\model\225a\"
+    SysDir C:\GAMS\54\
     LogOption 3
     AppendLog 1
     ErrMsg 1
     ErrorLog 99
     IDE 1
     LstTitleLeftAligned 1
+*** ************* BETA release
+*** GAMS Base Module 54.0.0 3d4dc8b6 May 30, 2026   (BETA) WEI x86 64bit/MS Window
+*** BETA expires in 12 days
+*** ************* BETA release
 Licensee: Large MUD - 20 User License                    G251106+0003Ac-GEN
           Technical University of Denmark, Management Engineering    DC8611
-          C:\Users\inesm\Documents\GAMS\gamslice.txt
+          C:\Users\Bruger\OneDrive\Documents\GAMS\gamslice.txt
           556f6a85-f5d8-4c6d
           v:2                                                              
-          The maintenance period of the license expires on Dec 31, 2026
-System information: 10 physical cores and 16 Gb physical memory detected
-GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
+          The maintenance period of the license expired on 
+          Please contact GAMS or your distributor for further information
+System information: 4 physical cores and 8 Gb physical memory detected
+GAMS 54.0.0   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- Starting compilation
 --- Balmorel.gms(42) 2 Mb
 --- > balgams.opt(161) 2 Mb
@@ -202,7 +208,7 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >>> FKPOT.inc(36) 5 Mb
 --- >> bb4datainc.inc(453) 5 Mb
 --- >>> TECHGROUPKPOT.inc(31) 5 Mb
---- >> bb4datainc.inc(458) 5 Mb
+--- >> bb4datainc.inc(457) 5 Mb
 --- >>> SUBTECHGROUPKPOT.inc(117) 5 Mb
 --- >> bb4datainc.inc(461) 5 Mb
 --- >>> subtechgroupkpotadditions.inc(15) 5 Mb
@@ -302,8 +308,8 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >>> xlossadditions.inc(10) 5 Mb
 --- >> bb4datainc.inc(695) 5 Mb
 --- >>> XKRATE.inc(11) 5 Mb
---- >> bb4datainc.inc(700) 5 Mb
---- >>> XMAXINV.inc(55) 5 Mb
+--- >> bb4datainc.inc(699) 5 Mb
+--- >>> XMAXINV.inc(57) 5 Mb
 --- >> bb4datainc.inc(709) 5 Mb
 --- >>> FUELPRICE.inc(67) 5 Mb
 --- >> bb4datainc.inc(712) 5 Mb
@@ -575,303 +581,296 @@ GAMS 53.5.1   Copyright (C) 1987-2026 GAMS Development. All rights reserved
 --- >> OUTPUT_SUMMARY.inc(1901) 29 Mb
 --- > Balmorelbb4.inc(2852) 29 Mb
 --- Balmorel.gms(210) 29 Mb
---- Starting execution: elapsed 0:00:01.871
---- Balmorel.gms(1453) 30 Mb
-Ya existe el subdirectorio o el archivo -p.
-Error mientras se procesaba: -p.
---- Balmorel.gms(93529) 65 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\scenario_base\output\temp\IWEIGHTY.gdx
---- Balmorel.gms(94187) 65 Mb
---- Balmorel.gms(95224) 69 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\scenario_base\output\inputout\INPUTDATAOUT.gdx
---- Balmorel.gms(98024) 70 Mb
+--- Starting execution: elapsed 0:00:01.542
+--- Balmorel.gms(1454) 30 Mb
+--- Balmorel.gms(1455) 30 Mb
+A subdirectory or file -p already exists.
+Error occurred while processing: -p.
+--- Balmorel.gms(57217) 66 Mb  22 secs
+--- Balmorel.gms(66203) 66 Mb  8 secs
+--- Balmorel.gms(93531) 66 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_base\output\temp\IWEIGHTY.gdx
+--- Balmorel.gms(94189) 89 Mb
+--- Balmorel.gms(95226) 94 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_base\output\inputout\INPUTDATAOUT.gdx
+--- Balmorel.gms(98026) 97 Mb
 --- Generating LP model BALBASE4
---- Balmorel.gms(98278) 255 Mb
---- LOOPS IYALIAS = 2050
----   563,275 rows  540,467 columns  1,840,536 non-zeroes
+--- Balmorel.gms(98280) 728 Mb
+--- LOOPS IYALIAS = 2030
+---   1,684,347 rows  1,614,363 columns  5,652,752 non-zeroes
 --- Range statistics (absolute non-zero finite values)
---- RHS       [min, max] : [ 5.994E-04, 2.893E+09] - Zero values observed as well
---- Bound     [min, max] : [ 2.736E-03, 3.705E+03] - Zero values observed as well
---- Matrix    [min, max] : [ 3.911E-09, 1.408E+02]
---- Executing CPLEX (Solvelink=2): elapsed 0:00:10.252
+--- RHS       [min, max] : [ 2.529E-05, 2.893E+09] - Zero values observed as well
+--- Bound     [min, max] : [ 1.664E-03, 3.705E+03] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.304E-09, 4.693E+01]
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:56.632
 
-IBM ILOG CPLEX   53.5.1 f2e5fac3 May 20, 2026          WEI x86 64bit/MS Window
+IBM ILOG CPLEX   54.0.0 3d4dc8b6 May 30, 2026   (BETA) WEI x86 64bit/MS Window
 
 --- GAMS/CPLEX licensed for continuous and discrete problems.
 
-Reading parameter(s) from "C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\scenario_base\model\cplex.op4"
->>  * Option file 4 for CPLEX solver. For possible options, see the GAMS Solver Manual.
->>  * To use with CPLEX,  set  '$Setglobal USEOPTIONFILE 4' in balgams.opt.
->>  * Do not change this file, it is predefined.
->>  * To use other options with CPLEX, make and/or use some other file, see USEOPTIONFILE in balgams.opt.
->>  * "LPmethod  4": Barrier method
->>  * "Threads  -1": Use all available threads except 1.
->>  * If memory tight, set the Threads parameter to 1.
->> ~* advind is set to 0 by default since for large problems a better performance has been experienced. If 0, the optimization will no~
->> ~t use the previous solution to try to find the next run faster.
->> 
->>  LPmethod  4
->>  Threads  -1
->>  advind 0
->> 
->> 
-Finished reading from "C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\scenario_base\model\cplex.op4"
+--- Reading option file 'C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_base\model\cplex.op4':
+--- Skipping '* Option file 4 for CPLEX solver. For possible options, see the GAMS Solver Manual.'
+--- Skipping '* To use with CPLEX,  set  '$Setglobal USEOPTIONFILE 4' in balgams.opt.'
+--- Skipping '* Do not change this file, it is predefined.'
+--- Skipping '* To use other options with CPLEX, make and/or use some other file, see USEOPTIONFILE in balgams.opt.'
+--- Skipping '* "LPmethod  4": Barrier method'
+--- Skipping '* "Threads  -1": Use all available threads except 1.'
+--- Skipping '* If memory tight, set the Threads parameter to 1.'
+--- Skipping '* advind is set to 0 by default since for large problems a better performance has been experienced. If 0, the optimization will not use the previous solution to try to find the next run faster.'
+--- Setting 'LPmethod': 4
+--- Setting 'Threads': -1
+--- Setting 'advind': 0
 
 --- GMO setup time: 0.00s
---- Space for names approximately 71.35 Mb
+--- Space for names approximately 213.32 Mb
 --- Use option 'names no' to turn use of names off
---- GMO memory 209.18 Mb (peak 213.30 Mb)
+--- GMO memory 631.62 Mb (peak 643.94 Mb)
 --- Dictionary memory 0.00 Mb
---- Cplex 22.1.2.0 link memory 16.75 Mb (peak 117.57 Mb)
+--- Cplex 22.1.2.0 link memory 50.07 Mb (peak 351.52 Mb)
 --- Starting Cplex
 
 Version identifier: 22.1.2.0 | 2024-11-25 | 0edbb82fd
 CPXPARAM_Advance                                 0
 CPXPARAM_LPMethod                                4
-CPXPARAM_Threads                                 11
+CPXPARAM_Threads                                 7
 CPXPARAM_Parallel                                1
 CPXPARAM_MIP_Display                             4
 CPXPARAM_MIP_Pool_Capacity                       0
+CPXPARAM_Preprocessing_QCPDuals                  0
 CPXPARAM_Barrier_Limits_Iteration                2000000000
 CPXPARAM_TimeLimit                               1209600
 CPXPARAM_MIP_Tolerances_AbsMIPGap                0
 CPXPARAM_MIP_Tolerances_MIPGap                   9.9999999999999995e-07
 Tried aggregator 1 time.
 DUAL formed by presolve
-LP Presolve eliminated 337170 rows and 332585 columns.
-Aggregator did 54972 substitutions.
-Reduced LP has 152916 rows, 187551 columns, and 619783 nonzeros.
-Presolve time = 1.25 sec. (2160.86 ticks)
-Parallel mode: using up to 11 threads for barrier.
+LP Presolve eliminated 694532 rows and 680123 columns.
+Aggregator did 278301 substitutions.
+Reduced LP has 655945 rows, 761164 columns, and 2565558 nonzeros.
+Presolve time = 12.16 sec. (7707.55 ticks)
+Parallel mode: using up to 7 threads for barrier.
 
-***NOTE: Found 56 dense columns.
+***NOTE: Found 152 dense columns.
 
-Number of nonzeros in lower triangle of A*A' = 2943823
+Number of nonzeros in lower triangle of A*A' = 19681615
+Elapsed ordering time = 6.80 sec. (10000.02 ticks)
 Using Nested Dissection ordering
-Total time for automatic ordering = 1.95 sec. (2994.84 ticks)
+Total time for automatic ordering = 86.73 sec. (69097.37 ticks)
 Summary statistics for Cholesky factor:
-  Threads                   = 11
-  Rows in Factor            = 152972
-  Integer space required    = 983129
-  Total non-zeros in factor = 19455363
-  Total FP ops to factor    = 5408623589
+  Threads                   = 7
+  Rows in Factor            = 656097
+  Integer space required    = 4141037
+  Total non-zeros in factor = 143959257
+  Total FP ops to factor    = 87283705485
  Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
-   0  -2.2348528e+12   7.2041024e+08  8.86e+08  0.00e+00  1.27e+10  1.00e+00
-   1  -4.4381640e+11   3.6681941e+10  2.06e+08  0.00e+00  8.04e+09  2.74e-07
-   2  -2.6492291e+11   8.6320079e+09  1.20e+08  0.00e+00  3.59e+09  1.62e-07
-   3  -1.7123371e+11  -3.0568571e+09  7.65e+07  0.00e+00  1.02e+09  2.14e-07
-   4  -7.5358782e+10   5.0411248e+09  3.60e+07  0.00e+00  3.84e+08  4.55e-07
-   5  -4.5280356e+10   6.4983729e+09  2.29e+07  0.00e+00  1.43e+08  1.17e-06
-   6  -2.6121511e+10   8.4955386e+09  1.51e+07  0.00e+00  7.60e+07  2.25e-06
-   7  -1.0335582e+10   8.5211159e+09  8.22e+06  0.00e+00  4.81e+07  3.72e-06
-   8  -3.1018528e+09   8.1127706e+09  4.77e+06  0.00e+00  3.60e+07  5.25e-06
-   9   1.8919115e+07   7.5377909e+09  3.14e+06  0.00e+00  2.59e+07  7.64e-06
-  10   1.3818197e+09   7.1244735e+09  2.42e+06  0.00e+00  1.91e+07  1.07e-05
-  11   2.6201182e+09   6.8082415e+09  1.76e+06  0.00e+00  1.41e+07  1.52e-05
-  12   3.0623175e+09   6.5470520e+09  1.52e+06  0.00e+00  1.04e+07  2.13e-05
-  13   3.5195874e+09   6.4409472e+09  1.27e+06  0.00e+00  8.71e+06  2.58e-05
-  14   3.7138926e+09   6.2939422e+09  1.17e+06  0.00e+00  6.60e+06  3.48e-05
-  15   4.0904211e+09   6.1771269e+09  9.63e+05  0.00e+00  4.78e+06  4.93e-05
-  16   4.6113309e+09   6.1094526e+09  6.77e+05  0.00e+00  3.81e+06  6.32e-05
-  17   4.8107189e+09   6.0895171e+09  5.57e+05  0.00e+00  3.60e+06  6.75e-05
-  18   4.8795038e+09   6.0050792e+09  5.15e+05  0.00e+00  2.81e+06  8.79e-05
-  19   4.9892982e+09   5.9755430e+09  4.47e+05  0.00e+00  2.53e+06  9.86e-05
-  20   5.0826120e+09   5.9473173e+09  3.88e+05  0.00e+00  2.27e+06  1.10e-04
-  21   5.1285406e+09   5.9439075e+09  3.58e+05  0.00e+00  2.24e+06  1.12e-04
-  22   5.1835531e+09   5.9123557e+09  3.21e+05  0.00e+00  1.99e+06  1.28e-04
-  23   5.2085479e+09   5.9035141e+09  3.05e+05  0.00e+00  1.92e+06  1.33e-04
-  24   5.2779301e+09   5.8701002e+09  2.58e+05  0.00e+00  1.66e+06  1.56e-04
-  25   5.3595172e+09   5.8584282e+09  2.01e+05  0.00e+00  1.57e+06  1.66e-04
-  26   5.3869865e+09   5.8484769e+09  1.81e+05  0.00e+00  1.50e+06  1.74e-04
-  27   5.4338354e+09   5.8116986e+09  1.46e+05  0.00e+00  1.25e+06  2.11e-04
-  28   5.4502568e+09   5.8038021e+09  1.32e+05  0.00e+00  1.20e+06  2.19e-04
-  29   5.4573315e+09   5.7963304e+09  1.26e+05  0.00e+00  1.16e+06  2.28e-04
-  30   5.4665222e+09   5.7852341e+09  1.18e+05  0.00e+00  1.09e+06  2.42e-04
-  31   5.4802743e+09   5.7623938e+09  1.06e+05  0.00e+00  9.58e+05  2.78e-04
-  32   5.4906596e+09   5.7481610e+09  9.62e+04  0.00e+00  8.76e+05  3.06e-04
-  33   5.5003386e+09   5.7408559e+09  8.73e+04  0.00e+00  8.34e+05  3.23e-04
-  34   5.5109936e+09   5.7326176e+09  7.75e+04  0.00e+00  7.87e+05  3.43e-04
-  35   5.5295126e+09   5.7010414e+09  6.01e+04  0.00e+00  6.08e+05  4.55e-04
-  36   5.5390129e+09   5.6885307e+09  5.09e+04  0.00e+00  5.39e+05  5.18e-04
-  37   5.5476362e+09   5.6663155e+09  4.25e+04  0.00e+00  4.16e+05  6.89e-04
-  38   5.5577511e+09   5.6506016e+09  3.32e+04  0.00e+00  3.25e+05  8.99e-04
-  39   5.5628915e+09   5.6441301e+09  2.85e+04  0.00e+00  2.88e+05  1.02e-03
-  40   5.5686875e+09   5.6334581e+09  2.31e+04  0.00e+00  2.27e+05  1.32e-03
-  41   5.5695136e+09   5.6264850e+09  2.24e+04  0.00e+00  1.88e+05  1.62e-03
-  42   5.5737713e+09   5.6192300e+09  1.86e+04  0.00e+00  1.44e+05  2.14e-03
-  43   5.5750597e+09   5.6139141e+09  1.75e+04  0.00e+00  1.12e+05  2.78e-03
-  44   5.5780373e+09   5.6101111e+09  1.51e+04  0.00e+00  8.81e+04  3.55e-03
-  45   5.5794132e+09   5.6085770e+09  1.39e+04  0.00e+00  7.87e+04  3.98e-03
-  46   5.5814856e+09   5.6074262e+09  1.22e+04  0.00e+00  7.14e+04  4.38e-03
-  47   5.5817059e+09   5.6072016e+09  1.20e+04  0.00e+00  7.02e+04  4.46e-03
-  48   5.5839822e+09   5.6043561e+09  9.93e+03  0.00e+00  5.37e+04  5.84e-03
-  49   5.5849842e+09   5.6030253e+09  9.01e+03  0.00e+00  4.62e+04  6.77e-03
-  50   5.5860969e+09   5.6021658e+09  7.99e+03  0.00e+00  4.14e+04  7.54e-03
-  51   5.5863086e+09   5.6019113e+09  7.77e+03  0.00e+00  4.01e+04  7.78e-03
-  52   5.5870827e+09   5.6000456e+09  7.01e+03  0.00e+00  3.04e+04  1.02e-02
-  53   5.5877196e+09   5.5992833e+09  6.39e+03  0.00e+00  2.63e+04  1.17e-02
-  54   5.5883311e+09   5.5979818e+09  5.79e+03  0.00e+00  1.95e+04  1.56e-02
-  55   5.5890760e+09   5.5974020e+09  5.07e+03  0.00e+00  1.65e+04  1.82e-02
-  56   5.5896196e+09   5.5970432e+09  4.52e+03  0.00e+00  1.47e+04  2.02e-02
-  57   5.5897182e+09   5.5969694e+09  4.41e+03  0.00e+00  1.44e+04  2.06e-02
-  58   5.5903152e+09   5.5958768e+09  3.77e+03  0.00e+00  9.28e+03  3.07e-02
-  59   5.5905239e+09   5.5957075e+09  3.55e+03  0.00e+00  8.50e+03  3.32e-02
-  60   5.5908121e+09   5.5951831e+09  3.23e+03  0.00e+00  6.27e+03  4.31e-02
-  61   5.5910385e+09   5.5948130e+09  2.96e+03  0.00e+00  4.89e+03  5.30e-02
-  62   5.5912414e+09   5.5947233e+09  2.72e+03  0.00e+00  4.54e+03  5.62e-02
-  63   5.5914569e+09   5.5943956e+09  2.45e+03  0.00e+00  3.40e+03  7.10e-02
-  64   5.5916848e+09   5.5942065e+09  2.16e+03  0.00e+00  2.77e+03  8.32e-02
-  65   5.5918292e+09   5.5939206e+09  1.96e+03  0.00e+00  1.93e+03  1.10e-01
-  66   5.5919613e+09   5.5937669e+09  1.78e+03  0.00e+00  1.50e+03  1.31e-01
-  67   5.5920952e+09   5.5937220e+09  1.58e+03  0.00e+00  1.39e+03  1.38e-01
-  68   5.5922332e+09   5.5935799e+09  1.36e+03  0.00e+00  1.08e+03  1.66e-01
-  69   5.5922828e+09   5.5934533e+09  1.27e+03  0.00e+00  8.41e+02  1.99e-01
-  70   5.5923292e+09   5.5933850e+09  1.19e+03  0.00e+00  7.16e+02  2.22e-01
-  71   5.5924148e+09   5.5932795e+09  1.03e+03  0.00e+00  5.35e+02  2.70e-01
-  72   5.5924642e+09   5.5932638e+09  9.28e+02  0.00e+00  5.12e+02  2.78e-01
-  73   5.5925076e+09   5.5931769e+09  8.29e+02  0.00e+00  3.99e+02  3.32e-01
-  74   5.5925559e+09   5.5930982e+09  7.12e+02  0.00e+00  3.03e+02  4.01e-01
-  75   5.5925979e+09   5.5930801e+09  5.98e+02  0.00e+00  2.83e+02  4.19e-01
-  76   5.5926267e+09   5.5930209e+09  5.01e+02  0.00e+00  2.28e+02  4.93e-01
-  77   5.5926391e+09   5.5929996e+09  4.50e+02  0.00e+00  2.10e+02  5.25e-01
-  78   5.5926522e+09   5.5929532e+09  3.89e+02  0.00e+00  1.74e+02  6.10e-01
-  79   5.5926598e+09   5.5929128e+09  3.44e+02  0.00e+00  1.44e+02  7.08e-01
-  80   5.5926666e+09   5.5928859e+09  2.97e+02  0.00e+00  1.25e+02  7.90e-01
-  81   5.5926672e+09   5.5928650e+09  2.91e+02  0.00e+00  1.11e+02  8.69e-01
-  82   5.5926686e+09   5.5928620e+09  2.75e+02  0.00e+00  1.10e+02  8.81e-01
-  83   5.5926709e+09   5.5928308e+09  2.45e+02  0.00e+00  8.99e+01  1.03e+00
-  84   5.5926712e+09   5.5928263e+09  2.38e+02  0.00e+00  8.72e+01  1.06e+00
-  85   5.5926722e+09   5.5928023e+09  2.12e+02  0.00e+00  7.32e+01  1.22e+00
-  86   5.5926734e+09   5.5927696e+09  1.59e+02  0.00e+00  5.41e+01  1.55e+00
-  87   5.5926727e+09   5.5927637e+09  1.45e+02  0.00e+00  5.11e+01  1.63e+00
-  88   5.5926699e+09   5.5927480e+09  1.08e+02  0.00e+00  4.33e+01  1.87e+00
-  89   5.5926645e+09   5.5927183e+09  7.23e+01  0.00e+00  2.99e+01  2.60e+00
-  90   5.5926536e+09   5.5927032e+09  2.49e+01  0.00e+00  2.35e+01  3.23e+00
-  91   5.5926492e+09   5.5926953e+09  1.67e+01  0.00e+00  2.05e+01  3.70e+00
-  92   5.5926459e+09   5.5926741e+09  1.09e+01  0.00e+00  1.27e+01  6.02e+00
-  93   5.5926454e+09   5.5926706e+09  9.98e+00  0.00e+00  1.14e+01  6.72e+00
-  94   5.5926428e+09   5.5926544e+09  4.95e+00  0.00e+00  5.31e+00  1.46e+01
-  95   5.5926418e+09   5.5926520e+09  3.13e+00  0.00e+00  4.43e+00  1.76e+01
-  96   5.5926417e+09   5.5926512e+09  3.04e+00  0.00e+00  4.14e+00  1.89e+01
-  97   5.5926406e+09   5.5926478e+09  9.03e-01  0.00e+00  2.88e+00  2.76e+01
-  98   5.5926404e+09   5.5926441e+09  5.55e-01  0.00e+00  1.50e+00  5.57e+01
-  99   5.5926405e+09   5.5926409e+09  1.93e-01  0.00e+00  1.57e-01  5.30e+02
- 100   5.5926405e+09   5.5926406e+09  2.26e-02  0.00e+00  3.80e-02  2.19e+03
- 101   5.5926406e+09   5.5926406e+09  5.88e-02  0.00e+00  5.04e-02  1.51e+04
-Barrier time = 25.73 sec. (22819.80 ticks)
-Parallel mode: deterministic, using up to 11 threads for concurrent optimization:
+   0  -9.6824185e+12   1.2169488e+09  8.82e+09  0.00e+00  8.22e+10  1.00e+00
+   1  -1.6091154e+12   7.3059631e+09  1.47e+09  0.00e+00  2.98e+10  1.53e-07
+   2  -3.0618075e+11   1.6330902e+09  2.78e+08  0.00e+00  1.38e+10  1.88e-07
+   3  -1.1441037e+11  -1.4075464e+09  9.90e+07  0.00e+00  9.58e+09  2.89e-07
+   4  -5.1439553e+10  -2.2420255e+10  2.53e+07  0.00e+00  2.49e+09  7.58e-07
+   5  -2.3268309e+10  -8.4399119e+09  1.13e+07  0.00e+00  8.92e+08  2.45e-06
+   6  -1.1467160e+10  -9.1588281e+08  6.32e+06  0.00e+00  3.31e+08  7.69e-06
+   7  -8.3216986e+09   1.2359077e+09  5.04e+06  0.00e+00  1.88e+08  1.39e-05
+   8  -5.4413947e+09   1.7895242e+09  3.82e+06  0.00e+00  1.44e+08  1.86e-05
+   9  -2.9345322e+09   2.9064248e+09  2.86e+06  0.00e+00  8.55e+07  3.26e-05
+  10  -9.5273674e+08   3.4147514e+09  2.09e+06  0.00e+00  5.67e+07  5.02e-05
+  11   7.4204164e+08   3.5490869e+09  1.35e+06  0.00e+00  3.96e+07  7.39e-05
+  12   1.1503434e+09   3.5476373e+09  1.16e+06  0.00e+00  3.36e+07  8.81e-05
+  13   1.5125983e+09   3.5516892e+09  9.85e+05  0.00e+00  3.05e+07  9.81e-05
+  14   1.8217426e+09   3.5513342e+09  8.35e+05  0.00e+00  2.86e+07  1.06e-04
+  15   2.0986472e+09   3.5457501e+09  6.97e+05  0.00e+00  2.56e+07  1.20e-04
+  16   2.4623335e+09   3.5379324e+09  5.11e+05  0.00e+00  2.33e+07  1.35e-04
+  17   2.6800346e+09   3.5083617e+09  3.90e+05  0.00e+00  1.88e+07  1.72e-04
+  18   2.9040102e+09   3.4817802e+09  2.66e+05  0.00e+00  1.48e+07  2.28e-04
+  19   3.0521697e+09   3.4588158e+09  1.83e+05  0.00e+00  1.15e+07  3.03e-04
+  20   3.1165051e+09   3.4463171e+09  1.50e+05  0.00e+00  8.68e+06  4.13e-04
+  21   3.1422921e+09   3.4442589e+09  1.38e+05  0.00e+00  7.05e+06  5.16e-04
+  22   3.1727661e+09   3.4435072e+09  1.24e+05  0.00e+00  5.31e+06  7.00e-04
+  23   3.2017340e+09   3.4540372e+09  1.12e+05  0.00e+00  3.93e+06  9.57e-04
+  24   3.2213072e+09   3.4564613e+09  1.04e+05  0.00e+00  3.64e+06  1.03e-03
+  25   3.2459797e+09   3.4596889e+09  9.42e+04  0.00e+00  2.89e+06  1.32e-03
+  26   3.2585556e+09   3.4645843e+09  8.91e+04  0.00e+00  2.15e+06  1.78e-03
+  27   3.2744445e+09   3.4659134e+09  8.26e+04  0.00e+00  1.87e+06  2.05e-03
+  28   3.2980284e+09   3.4684239e+09  7.30e+04  0.00e+00  1.45e+06  2.63e-03
+  29   3.3063407e+09   3.4687015e+09  6.96e+04  0.00e+00  1.40e+06  2.73e-03
+  30   3.3229786e+09   3.4693128e+09  6.26e+04  0.00e+00  1.17e+06  3.24e-03
+  31   3.3393244e+09   3.4695549e+09  5.57e+04  0.00e+00  1.02e+06  3.70e-03
+  32   3.3647383e+09   3.4691364e+09  4.46e+04  0.00e+00  8.28e+05  4.56e-03
+  33   3.3756789e+09   3.4681675e+09  3.96e+04  0.00e+00  7.10e+05  5.31e-03
+  34   3.3880249e+09   3.4671051e+09  3.39e+04  0.00e+00  6.03e+05  6.24e-03
+  35   3.3980341e+09   3.4657530e+09  2.91e+04  0.00e+00  5.02e+05  7.47e-03
+  36   3.4054113e+09   3.4649780e+09  2.55e+04  0.00e+00  4.56e+05  8.22e-03
+  37   3.4128396e+09   3.4636341e+09  2.17e+04  0.00e+00  3.90e+05  9.61e-03
+  38   3.4182192e+09   3.4625273e+09  1.89e+04  0.00e+00  3.44e+05  1.09e-02
+  39   3.4211905e+09   3.4611522e+09  1.73e+04  0.00e+00  2.91e+05  1.29e-02
+  40   3.4254000e+09   3.4600352e+09  1.51e+04  0.00e+00  2.48e+05  1.51e-02
+  41   3.4281443e+09   3.4589984e+09  1.36e+04  0.00e+00  2.13e+05  1.75e-02
+  42   3.4303016e+09   3.4582077e+09  1.24e+04  0.00e+00  1.87e+05  1.99e-02
+  43   3.4334558e+09   3.4574194e+09  1.06e+04  0.00e+00  1.62e+05  2.29e-02
+  44   3.4359685e+09   3.4569546e+09  9.13e+03  0.00e+00  1.49e+05  2.49e-02
+  45   3.4378704e+09   3.4564673e+09  7.98e+03  0.00e+00  1.37e+05  2.71e-02
+  46   3.4394948e+09   3.4554361e+09  6.97e+03  0.00e+00  1.12e+05  3.30e-02
+  47   3.4409489e+09   3.4541338e+09  6.05e+03  0.00e+00  8.25e+04  4.48e-02
+  48   3.4422933e+09   3.4535386e+09  5.20e+03  0.00e+00  6.88e+04  5.34e-02
+  49   3.4431469e+09   3.4533630e+09  4.65e+03  0.00e+00  6.50e+04  5.64e-02
+  50   3.4437670e+09   3.4526238e+09  4.23e+03  0.00e+00  5.07e+04  7.21e-02
+  51   3.4443337e+09   3.4525494e+09  3.86e+03  0.00e+00  4.91e+04  7.42e-02
+  52   3.4451390e+09   3.4522125e+09  3.31e+03  0.00e+00  4.26e+04  8.51e-02
+  53   3.4459594e+09   3.4515810e+09  2.73e+03  0.00e+00  3.13e+04  1.15e-01
+  54   3.4464438e+09   3.4511505e+09  2.39e+03  0.00e+00  2.38e+04  1.49e-01
+  55   3.4469437e+09   3.4508297e+09  2.02e+03  0.00e+00  1.83e+04  1.91e-01
+  56   3.4473867e+09   3.4504441e+09  1.70e+03  0.00e+00  1.22e+04  2.79e-01
+  57   3.4476003e+09   3.4503615e+09  1.54e+03  0.00e+00  1.09e+04  3.07e-01
+  58   3.4480264e+09   3.4501222e+09  1.21e+03  0.00e+00  7.51e+03  4.28e-01
+  59   3.4482290e+09   3.4499985e+09  1.04e+03  0.00e+00  5.97e+03  5.25e-01
+  60   3.4483864e+09   3.4498966e+09  9.12e+02  0.00e+00  4.81e+03  6.34e-01
+  61   3.4485149e+09   3.4498512e+09  8.01e+02  0.00e+00  4.33e+03  6.95e-01
+  62   3.4486549e+09   3.4497987e+09  6.75e+02  0.00e+00  3.82e+03  7.76e-01
+  63   3.4487496e+09   3.4496792e+09  5.85e+02  0.00e+00  2.77e+03  1.04e+00
+  64   3.4487992e+09   3.4496210e+09  5.37e+02  0.00e+00  2.27e+03  1.23e+00
+  65   3.4488761e+09   3.4495597e+09  4.62e+02  0.00e+00  1.77e+03  1.53e+00
+  66   3.4489221e+09   3.4495058e+09  4.15e+02  0.00e+00  1.35e+03  1.92e+00
+  67   3.4489473e+09   3.4494861e+09  3.89e+02  0.00e+00  1.21e+03  2.11e+00
+  68   3.4490591e+09   3.4494380e+09  2.70e+02  0.00e+00  8.70e+02  2.75e+00
+  69   3.4490812e+09   3.4494064e+09  2.43e+02  0.00e+00  6.94e+02  3.34e+00
+  70   3.4491033e+09   3.4493816e+09  2.16e+02  0.00e+00  5.61e+02  4.01e+00
+  71   3.4491553e+09   3.4493410e+09  1.49e+02  0.00e+00  3.53e+02  5.86e+00
+  72   3.4491694e+09   3.4493205e+09  1.29e+02  0.00e+00  2.67e+02  7.43e+00
+  73   3.4491777e+09   3.4493078e+09  1.16e+02  0.00e+00  2.15e+02  8.90e+00
+  74   3.4491919e+09   3.4492888e+09  9.41e+01  0.00e+00  1.42e+02  1.25e+01
+  75   3.4491957e+09   3.4492759e+09  8.80e+01  0.00e+00  9.68e+01  1.70e+01
+  76   3.4492037e+09   3.4492674e+09  7.48e+01  0.00e+00  6.74e+01  2.23e+01
+  77   3.4492097e+09   3.4492634e+09  6.43e+01  0.00e+00  5.42e+01  2.61e+01
+  78   3.4492184e+09   3.4492517e+09  4.80e+01  0.00e+00  2.20e+01  4.75e+01
+  79   3.4492202e+09   3.4492514e+09  4.44e+01  0.00e+00  2.13e+01  4.85e+01
+  80   3.4492207e+09   3.4492509e+09  4.32e+01  0.00e+00  2.02e+01  5.02e+01
+  81   3.4492269e+09   3.4492470e+09  2.97e+01  0.00e+00  1.32e+01  6.73e+01
+  82   3.4492292e+09   3.4492459e+09  2.35e+01  0.00e+00  1.14e+01  7.40e+01
+  83   3.4492301e+09   3.4492447e+09  2.06e+01  0.00e+00  9.87e+00  8.33e+01
+  84   3.4492324e+09   3.4492394e+09  1.29e+01  0.00e+00  3.67e+00  1.70e+02
+  85   3.4492337e+09   3.4492371e+09  7.15e+00  0.00e+00  1.56e+00  3.09e+02
+  86   3.4492340e+09   3.4492360e+09  4.69e+00  0.00e+00  8.88e-01  4.82e+02
+  87   3.4492341e+09   3.4492357e+09  3.28e+00  0.00e+00  7.70e-01  5.45e+02
+  88   3.4492341e+09   3.4492351e+09  1.48e+00  0.00e+00  4.75e-01  8.40e+02
+  89   3.4492340e+09   3.4492346e+09  5.09e-01  0.00e+00  2.60e-01  1.52e+03
+Barrier time = 590.39 sec. (332421.47 ticks)
+Parallel mode: deterministic, using up to 7 threads for concurrent optimization:
  * Starting dual Simplex on 1 thread...
  * Starting primal Simplex on 1 thread...
 
 Dual crossover.
-  Dual:  Fixing 18073 variables.
-    18072 DMoves:  Infeasibility  2.63091235e+00  Objective  5.59264051e+09
-    16677 DMoves:  Infeasibility  2.24580367e+00  Objective  5.59264051e+09
-    14883 DMoves:  Infeasibility  2.03641975e+00  Objective  5.59264051e+09
-    13587 DMoves:  Infeasibility  2.01721639e+00  Objective  5.59264051e+09
-    12731 DMoves:  Infeasibility  2.01543733e+00  Objective  5.59264051e+09
-    11988 DMoves:  Infeasibility  2.01148026e+00  Objective  5.59264051e+09
-    11111 DMoves:  Infeasibility  1.93315611e+00  Objective  5.59264051e+09
-    10274 DMoves:  Infeasibility  1.92839055e+00  Objective  5.59264052e+09
-     9270 DMoves:  Infeasibility  1.92070168e+00  Objective  5.59264052e+09
-     8595 DMoves:  Infeasibility  1.91581387e+00  Objective  5.59264052e+09
-     8004 DMoves:  Infeasibility  1.91182311e+00  Objective  5.59264052e+09
-     7342 DMoves:  Infeasibility  1.89821519e+00  Objective  5.59264053e+09
-     6902 DMoves:  Infeasibility  1.88124920e+00  Objective  5.59264054e+09
-     3372 DMoves:  Infeasibility  3.55883316e-02  Objective  5.59264055e+09
-     2542 DMoves:  Infeasibility  1.47399695e-02  Objective  5.59264052e+09
-     1455 DMoves:  Infeasibility  7.48919418e-03  Objective  5.59264055e+09
-        0 DMoves:  Infeasibility  6.18146622e-09  Objective  5.59264055e+09
-  Dual:  Pushed 4234, exchanged 13839.
-  Primal:  Fixing 119270 variables.
-   119269 PMoves:  Infeasibility  6.12901470e-04  Objective  5.59264055e+09
-   114364 PMoves:  Infeasibility  6.12901594e-04  Objective  5.59264055e+09
-    85222 PMoves:  Infeasibility  6.12901525e-04  Objective  5.59264055e+09
-    82463 PMoves:  Infeasibility  6.12901525e-04  Objective  5.59264055e+09
-    79934 PMoves:  Infeasibility  6.12901526e-04  Objective  5.59264055e+09
-    78181 PMoves:  Infeasibility  6.12901526e-04  Objective  5.59264055e+09
-    73959 PMoves:  Infeasibility  6.12901526e-04  Objective  5.59264055e+09
-    68363 PMoves:  Infeasibility  6.12901526e-04  Objective  5.59264055e+09
-    62435 PMoves:  Infeasibility  6.12901525e-04  Objective  5.59264055e+09
-    59001 PMoves:  Infeasibility  6.12901525e-04  Objective  5.59264055e+09
-    49113 PMoves:  Infeasibility  6.12901453e-04  Objective  5.59264055e+09
-    41308 PMoves:  Infeasibility  6.12901654e-04  Objective  5.59264055e+09
-Removing shift (2).
+  Dual:  Fixing 108337 variables.
+   108336 DMoves:  Infeasibility  3.32269368e+00  Objective  3.44923390e+09
+   105836 DMoves:  Infeasibility  3.29187511e+00  Objective  3.44923390e+09
+   102427 DMoves:  Infeasibility  3.23417248e+00  Objective  3.44923390e+09
+   100123 DMoves:  Infeasibility  3.21265815e+00  Objective  3.44923390e+09
+    98128 DMoves:  Infeasibility  3.19247145e+00  Objective  3.44923390e+09
+    96813 DMoves:  Infeasibility  3.15814657e+00  Objective  3.44923390e+09
+    95665 DMoves:  Infeasibility  3.14902612e+00  Objective  3.44923390e+09
+    95012 DMoves:  Infeasibility  3.14652248e+00  Objective  3.44923390e+09
+    93599 DMoves:  Infeasibility  3.12188467e+00  Objective  3.44923390e+09
+    92522 DMoves:  Infeasibility  2.43162302e+00  Objective  3.44923390e+09
+    91112 DMoves:  Infeasibility  2.40683786e+00  Objective  3.44923390e+09
+    90100 DMoves:  Infeasibility  2.39210265e+00  Objective  3.44923390e+09
+    88855 DMoves:  Infeasibility  2.34739628e+00  Objective  3.44923390e+09
+    87286 DMoves:  Infeasibility  2.26389665e+00  Objective  3.44923390e+09
+    86195 DMoves:  Infeasibility  2.24159044e+00  Objective  3.44923391e+09
+    84755 DMoves:  Infeasibility  2.18380311e+00  Objective  3.44923391e+09
+    83557 DMoves:  Infeasibility  2.13852155e+00  Objective  3.44923391e+09
+    82478 DMoves:  Infeasibility  2.05466197e+00  Objective  3.44923392e+09
+    81488 DMoves:  Infeasibility  1.91749424e+00  Objective  3.44923392e+09
+    80565 DMoves:  Infeasibility  1.79784793e+00  Objective  3.44923393e+09
+    79402 DMoves:  Infeasibility  1.65853914e+00  Objective  3.44923393e+09
+    78274 DMoves:  Infeasibility  1.58858745e+00  Objective  3.44923394e+09
+    76795 DMoves:  Infeasibility  1.52033117e+00  Objective  3.44923398e+09
+    75972 DMoves:  Infeasibility  1.41670365e+00  Objective  3.44923403e+09
+    74978 DMoves:  Infeasibility  1.33981755e+00  Objective  3.44923407e+09
+    73947 DMoves:  Infeasibility  1.21966832e+00  Objective  3.44923411e+09
+    73217 DMoves:  Infeasibility  1.15741528e+00  Objective  3.44923412e+09
+    72086 DMoves:  Infeasibility  1.10303622e+00  Objective  3.44923411e+09
+    70929 DMoves:  Infeasibility  8.91098980e-01  Objective  3.44923411e+09
+    70050 DMoves:  Infeasibility  8.37272090e-01  Objective  3.44923411e+09
+    69181 DMoves:  Infeasibility  6.46489076e-01  Objective  3.44923410e+09
+    68412 DMoves:  Infeasibility  4.58311055e-01  Objective  3.44923413e+09
+    66263 DMoves:  Infeasibility  4.11794703e-01  Objective  3.44923419e+09
+    65155 DMoves:  Infeasibility  4.08772905e-01  Objective  3.44923418e+09
+   Elapsed crossover time = 21.14 sec. (10000.06 ticks, 54714 DMoves)
+    51118 DMoves:  Infeasibility  2.88298481e-01  Objective  3.44923413e+09
+    46083 DMoves:  Infeasibility  2.61512337e-01  Objective  3.44923412e+09
 
 Primal simplex solved model.
 
-Total crossover time = 2.39 sec. (3589.65 ticks)
+Total crossover time = 37.11 sec. (16860.31 ticks)
 
-Total time on 11 threads = 29.41 sec. (28591.91 ticks)
+Total time on 7 threads = 640.25 sec. (357057.50 ticks)
 
 --- LP status (1): optimal.
---- Cplex Time: 29.41sec (det. 28593.52 ticks)
+--- Cplex Time: 640.28sec (det. 357062.32 ticks)
 
 
 Optimal solution found
 Simplex iterations after crossover: 0
-Objective:   5592640547.965037
+Objective:   3449233974.929014
 
 --- Reading solution for model BALBASE4
---- Balmorel.gms(98278) 255 Mb  31 secs
---- GDX Point C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\scenario_base\model\BALBASE4_p.gdx
---- Executing after solve: elapsed 0:00:41.022
---- Balmorel.gms(99906) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\scenario_base\model\MainResults.gdx
---- Balmorel.gms(100252) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\HYRSG.gdx
---- Balmorel.gms(100253) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\VHYRS_SL.gdx
---- Balmorel.gms(100254) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\WATERVAL.gdx
---- Balmorel.gms(100255) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\VHYRS_STL.gdx
---- Balmorel.gms(100279) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\XKACCUMNET.gdx
---- Balmorel.gms(100280) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\GKACCUMNET.gdx
---- Balmorel.gms(100310) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\ESTOVOLTS.gdx
---- Balmorel.gms(100311) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\HSTOVOLTS.gdx
---- Balmorel.gms(100312) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\ESTOVOLT.gdx
---- Balmorel.gms(100313) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\HSTOVOLT.gdx
---- Balmorel.gms(100318) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\ESTOVOLTSVAL.gdx
---- Balmorel.gms(100319) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\HSTOVOLTSVAL.gdx
---- Balmorel.gms(100320) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\ESTOVOLTVAL.gdx
---- Balmorel.gms(100321) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\HSTOVOLTVAL.gdx
---- Balmorel.gms(100351) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\GE_T.gdx
---- Balmorel.gms(100352) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\GH_T.gdx
---- Balmorel.gms(100369) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\F_T.gdx
---- Balmorel.gms(100380) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\GMAXFS.gdx
---- Balmorel.gms(100385) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\FUELPRICE_EXC.gdx
---- Balmorel.gms(100415) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\H2STOVOLTS.gdx
---- Balmorel.gms(100416) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\H2STOVOLTSVAL.gdx
---- Balmorel.gms(100426) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\BIOMETHSTOVOLTS.gdx
---- Balmorel.gms(100427) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\BIOMETHSTOVOLTSVAL.gdx
---- Balmorel.gms(100437) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\simex\XH2KACCUMNET.gdx
---- Balmorel.gms(100485) 255 Mb
---- GDX File (execute_unload) C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\scenario_base\model\all_endofmodel.gdx
---- Putfile fileMERGEWITHBASEbat C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\scenario_base\model\%batfileMERGEWITHBASE%
---- Putfile errorfile C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\scenario_base\logerror\errors.out
---- Putfile logfile C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\scenario_base\logerror\logfile.out
---- Putfile printoutoverview C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\scenario_base\output\printout\printoutoverview.out
---- Putfile BB4overview C:\Users\inesm\Documents\GAMS\BalmorelSimpleModel_LP\BalmorelSimpleModel_LP\Balmorel\LSESAub\scenario_base\logerror\BB4overview.out
+--- Balmorel.gms(98280) 728 Mb  660 secs
+--- GDX Point C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_base\model\BALBASE4_p.gdx
+--- Executing after solve: elapsed 0:11:54.904
+--- Balmorel.gms(99908) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_base\model\MainResults.gdx
+--- Balmorel.gms(100254) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\HYRSG.gdx
+--- Balmorel.gms(100255) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\VHYRS_SL.gdx
+--- Balmorel.gms(100256) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\WATERVAL.gdx
+--- Balmorel.gms(100257) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\VHYRS_STL.gdx
+--- Balmorel.gms(100281) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\XKACCUMNET.gdx
+--- Balmorel.gms(100282) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\GKACCUMNET.gdx
+--- Balmorel.gms(100312) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\ESTOVOLTS.gdx
+--- Balmorel.gms(100313) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\HSTOVOLTS.gdx
+--- Balmorel.gms(100314) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\ESTOVOLT.gdx
+--- Balmorel.gms(100315) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\HSTOVOLT.gdx
+--- Balmorel.gms(100320) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\ESTOVOLTSVAL.gdx
+--- Balmorel.gms(100321) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\HSTOVOLTSVAL.gdx
+--- Balmorel.gms(100322) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\ESTOVOLTVAL.gdx
+--- Balmorel.gms(100323) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\HSTOVOLTVAL.gdx
+--- Balmorel.gms(100353) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\GE_T.gdx
+--- Balmorel.gms(100354) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\GH_T.gdx
+--- Balmorel.gms(100371) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\F_T.gdx
+--- Balmorel.gms(100382) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\GMAXFS.gdx
+--- Balmorel.gms(100387) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\FUELPRICE_EXC.gdx
+--- Balmorel.gms(100417) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\H2STOVOLTS.gdx
+--- Balmorel.gms(100418) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\H2STOVOLTSVAL.gdx
+--- Balmorel.gms(100428) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\BIOMETHSTOVOLTS.gdx
+--- Balmorel.gms(100429) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\BIOMETHSTOVOLTSVAL.gdx
+--- Balmorel.gms(100439) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\XH2KACCUMNET.gdx
+--- Balmorel.gms(100487) 728 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_base\model\all_endofmodel.gdx
+--- Putfile fileMERGEWITHBASEbat C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_base\model\%batfileMERGEWITHBASE%
+--- Putfile errorfile C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_base\logerror\errors.out
+--- Putfile logfile C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_base\logerror\logfile.out
+--- Putfile printoutoverview C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_base\output\printout\printoutoverview.out
+--- Putfile BB4overview C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_base\logerror\BB4overview.out
 *** Status: Normal completion
---- Job Balmorel.gms Stop 06/16/26 15:36:14 elapsed 0:00:42.746
+--- Job Balmorel.gms Stop 06/17/26 11:35:02 elapsed 0:12:14.498
