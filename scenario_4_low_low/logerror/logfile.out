@@ -36,4 +36,4 @@ See details of input data in output\inputout\inputout.out (if associated option 
 
 Year    Model status returned     Solver status returned          Obj. fct. value  Iter. used  No of infeas No of nonopt
         (Now to first SOLVE statement)
-2030    Optimal                      Normal completion              3359254661.74         127            0             0
+2030    Optimal                      Normal completion              3646089549.37         243            0             0

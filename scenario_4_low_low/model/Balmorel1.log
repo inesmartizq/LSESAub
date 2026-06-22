@@ -1,0 +1,1017 @@
+--- Job Balmorel.gms Start 06/19/26 16:05:50 54.0.0 3d4dc8b6 WEX-WEI x86 64bit/MS Windows
+--- Applying:
+    C:\GAMS\54\gmsprmNT.txt
+--- GAMS Parameters defined
+    Input "C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_4_low_low\model\Balmorel.gms"
+    PageSize 0
+    ScrDir "C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_4_low_low\model\225a\"
+    SysDir C:\GAMS\54\
+    LogOption 3
+    AppendLog 1
+    ErrMsg 1
+    ErrorLog 99
+    IDE 1
+    LstTitleLeftAligned 1
+*** ************* BETA release
+*** GAMS Base Module 54.0.0 3d4dc8b6 May 30, 2026   (BETA) WEI x86 64bit/MS Window
+*** BETA expires in 10 days
+*** ************* BETA release
+Licensee: Large MUD - 20 User License                    G251106+0003Ac-GEN
+          Technical University of Denmark, Management Engineering    DC8611
+          C:\Users\Bruger\OneDrive\Documents\GAMS\gamslice.txt
+          556f6a85-f5d8-4c6d
+          v:2                                                              
+          The maintenance period of the license expired on 
+          Please contact GAMS or your distributor for further information
+System information: 4 physical cores and 8 Gb physical memory detected
+GAMS 54.0.0   Copyright (C) 1987-2026 GAMS Development. All rights reserved
+--- Starting compilation
+--- Balmorel.gms(42) 2 Mb
+--- > balgams.opt(161) 2 Mb
+--- Balmorel.gms(48) 2 Mb
+--- > balopt.opt(1054) 2 Mb
+--- Balmorel.gms(99) 2 Mb
+--- > error1.inc(44) 2 Mb
+--- >> hellolog.inc(120) 2 Mb
+--- > error1.inc(56) 2 Mb
+--- Balmorel.gms(121) 2 Mb
+--- > Balmorelbb4.inc(305) 2 Mb
+--- >> bb4datainc.inc(25) 2 Mb
+--- >>> ACRONYMS.inc(16) 2 Mb
+--- >> bb4datainc.inc(27) 2 Mb
+--- >>> acronymsadditions.inc(11) 2 Mb
+--- >>>> hydrogen_acronymsadditions.inc(3) 2 Mb
+--- >>>>> HYDROGEN_ACRONYMS.inc(2) 2 Mb
+--- >>>> hydrogen_acronymsadditions.inc(4) 2 Mb
+--- >>> acronymsadditions.inc(15) 2 Mb
+--- >> bb4datainc.inc(33) 2 Mb
+--- >>> CCCRRRAAA.inc(109) 3 Mb
+--- >> bb4datainc.inc(36) 3 Mb
+--- >>> cccrrraaaadditions.inc(9) 3 Mb
+--- >> bb4datainc.inc(40) 3 Mb
+--- >>> CCC.inc(5) 3 Mb
+--- >> bb4datainc.inc(43) 3 Mb
+--- >>> cccadditions.inc(8) 3 Mb
+--- >> bb4datainc.inc(47) 3 Mb
+--- >>> RRR.inc(10) 3 Mb
+--- >> bb4datainc.inc(50) 3 Mb
+--- >>> rrradditions.inc(8) 3 Mb
+--- >> bb4datainc.inc(54) 3 Mb
+--- >>> AAA.inc(88) 3 Mb
+--- >> bb4datainc.inc(57) 3 Mb
+--- >>> aaaadditions.inc(9) 3 Mb
+--- >> bb4datainc.inc(61) 3 Mb
+--- >>> CCCRRR.inc(10) 3 Mb
+--- >> bb4datainc.inc(64) 3 Mb
+--- >>> cccrrradditions.inc(8) 3 Mb
+--- >> bb4datainc.inc(68) 3 Mb
+--- >>> RRRAAA.inc(90) 3 Mb
+--- >> bb4datainc.inc(71) 3 Mb
+--- >>> rrraaaadditions.inc(9) 3 Mb
+--- >> bb4datainc.inc(75) 3 Mb
+--- >>> C.inc(5) 3 Mb
+--- >> bb4datainc.inc(77) 3 Mb
+--- >>> cadditions.inc(8) 3 Mb
+--- >> bb4datainc.inc(104) 3 Mb
+--- >>> YYY.inc(2) 3 Mb
+--- >> bb4datainc.inc(109) 3 Mb
+--- >>> SSS.inc(4) 3 Mb
+--- >> bb4datainc.inc(114) 3 Mb
+--- >>> TTT.inc(4) 3 Mb
+--- >> bb4datainc.inc(119) 3 Mb
+--- >>> GROUP.inc(7) 3 Mb
+--- >> bb4datainc.inc(124) 3 Mb
+--- >>> GROUP_AAA.inc(8) 3 Mb
+--- >> bb4datainc.inc(129) 3 Mb
+--- >>> DEUSER.inc(10) 3 Mb
+--- >> bb4datainc.inc(132) 3 Mb
+--- >>> deuseradditions.inc(12) 3 Mb
+--- >> bb4datainc.inc(136) 3 Mb
+--- >>> DHUSER.inc(14) 3 Mb
+--- >> bb4datainc.inc(141) 3 Mb
+--- >>> FFF.inc(112) 3 Mb
+--- >> bb4datainc.inc(144) 3 Mb
+--- >>> fffadditions.inc(1) 3 Mb
+--- >>>> hydrogen_fffadditions.inc(3) 3 Mb
+--- >>>>> HYDROGEN_FFF.inc(10) 3 Mb
+--- >>>> hydrogen_fffadditions.inc(4) 3 Mb
+--- >>> fffadditions.inc(4) 3 Mb
+--- >> bb4datainc.inc(148) 3 Mb
+--- >>> FDATASET.inc(9) 3 Mb
+--- >> bb4datainc.inc(153) 3 Mb
+--- >>> FDATA.inc(56) 3 Mb
+--- >> bb4datainc.inc(156) 3 Mb
+--- >>> fdataadditions.inc(1) 3 Mb
+--- >>>> hydrogen_fdataadditions.inc(3) 3 Mb
+--- >>>>> HYDROGEN_FDATA.inc(11) 3 Mb
+--- >>>> hydrogen_fdataadditions.inc(4) 3 Mb
+--- >>> fdataadditions.inc(3) 3 Mb
+--- >> bb4datainc.inc(160) 3 Mb
+--- >>> GGG.inc(1323) 3 Mb
+--- >> bb4datainc.inc(163) 3 Mb
+--- >>> gggadditions.inc(6) 3 Mb
+--- >>>> hydrogen_gggadditions.inc(3) 3 Mb
+--- >>>>> HYDROGEN_GGG.inc(288) 3 Mb
+--- >>>> hydrogen_gggadditions.inc(4) 3 Mb
+--- >>> gggadditions.inc(9) 3 Mb
+--- >> bb4datainc.inc(167) 3 Mb
+--- >>> GDATASET.inc(63) 3 Mb
+--- >> bb4datainc.inc(172) 3 Mb
+--- >>> TECH_GROUP.inc(27) 3 Mb
+--- >> bb4datainc.inc(175) 3 Mb
+--- >>> tech_groupadditions.inc(4) 3 Mb
+--- >> bb4datainc.inc(179) 3 Mb
+--- >>> TECH_GROUP_VALUE.inc(25) 3 Mb
+--- >> bb4datainc.inc(182) 3 Mb
+--- >>> tech_group_valueadditions.inc(4) 3 Mb
+--- >> bb4datainc.inc(186) 3 Mb
+--- >>> TECHGROUP_DEUSER.inc(5) 3 Mb
+--- >> bb4datainc.inc(191) 3 Mb
+--- >>> SUBTECH_GROUP.inc(25) 3 Mb
+--- >> bb4datainc.inc(196) 3 Mb
+--- >>> SUBTECH_GROUP_VALUE.inc(25) 3 Mb
+--- >> bb4datainc.inc(201) 3 Mb
+--- >>> G.inc(1270) 3 Mb
+--- >> bb4datainc.inc(204) 3 Mb
+--- >>> gadditions.inc(6) 3 Mb
+--- >>>> hydrogen_gadditions.inc(3) 3 Mb
+--- >>>>> HYDROGEN_G.inc(290) 3 Mb
+--- >>>> hydrogen_gadditions.inc(4) 3 Mb
+--- >>> gadditions.inc(9) 3 Mb
+--- >> bb4datainc.inc(210) 3 Mb
+--- >>> setdeclare.inc(33) 3 Mb
+--- >> bb4datainc.inc(211) 3 Mb
+--- >>> setdefine.inc(20) 3 Mb
+--- >>> setdefine.inc(47) 3 Mb
+--- >> bb4datainc.inc(219) 3 Mb
+--- >>> GDATA.inc(1283) 5 Mb
+--- >> bb4datainc.inc(222) 5 Mb
+--- >>> gdataadditions.inc(13) 5 Mb
+--- >>>> hydrogen_gdataadditions.inc(3) 5 Mb
+--- >>>>> HYDROGEN_GDATA.inc(290) 5 Mb
+--- >>>> hydrogen_gdataadditions.inc(4) 5 Mb
+--- >>> gdataadditions.inc(18) 5 Mb
+--- >> bb4datainc.inc(238) 5 Mb
+--- >>> HYRSMAXVOL_G.inc(848) 5 Mb
+--- >> bb4datainc.inc(243) 5 Mb
+--- >>> HYRSDATASET.inc(8) 5 Mb
+--- >> bb4datainc.inc(248) 5 Mb
+--- >>> DF_QP.inc(5) 5 Mb
+--- >> bb4datainc.inc(253) 5 Mb
+--- >>> EMIPOLSET.inc(9) 5 Mb
+--- >> bb4datainc.inc(259) 5 Mb
+--- >>> AGKN.inc(567) 5 Mb
+--- >> bb4datainc.inc(263) 5 Mb
+--- >>> agknadditions.inc(7) 5 Mb
+--- >>>> hydrogen_agknadditions.inc(3) 5 Mb
+--- >>>>> HYDROGEN_AGKN.inc(72) 5 Mb
+--- >>>> hydrogen_agknadditions.inc(4) 5 Mb
+--- >>> agknadditions.inc(14) 5 Mb
+--- >> bb4datainc.inc(266) 5 Mb
+--- >>> Y.inc(10) 5 Mb
+--- >> bb4datainc.inc(275) 5 Mb
+--- >>> S.inc(6) 5 Mb
+--- >> bb4datainc.inc(280) 5 Mb
+--- >>> T.inc(7) 5 Mb
+--- >> bb4datainc.inc(286) 5 Mb
+--- >>> YVALUE.inc(12) 5 Mb
+--- >> bb4datainc.inc(291) 5 Mb
+--- >>> TWORKDAY.inc(1) 5 Mb
+--- >> bb4datainc.inc(296) 5 Mb
+--- >>> TWEEKEND.inc(1) 5 Mb
+--- >> bb4datainc.inc(402) 5 Mb
+--- >>> GKFX.inc(597) 5 Mb
+--- >> bb4datainc.inc(406) 5 Mb
+--- >>> gkfxadditions.inc(5) 5 Mb
+--- >>>> hydrogen_gkfxadditions.inc(3) 5 Mb
+--- >>>>> HYDROGEN_GKFX.inc(22) 5 Mb
+--- >>>> hydrogen_gkfxadditions.inc(4) 5 Mb
+--- >>> gkfxadditions.inc(14) 5 Mb
+--- >> bb4datainc.inc(411) 5 Mb
+--- >>> FMAXINVEST.inc(5) 5 Mb
+--- >> bb4datainc.inc(416) 5 Mb
+--- >>> FMAXINVESTNA.inc(2) 5 Mb
+--- >> bb4datainc.inc(421) 5 Mb
+--- >>> DISLOSS_E.inc(11) 5 Mb
+--- >> bb4datainc.inc(426) 5 Mb
+--- >>> DISLOSS_E_AG.inc(57) 5 Mb
+--- >> bb4datainc.inc(429) 5 Mb
+--- >>> disloss_e_agadditions.inc(17) 5 Mb
+--- >> bb4datainc.inc(433) 5 Mb
+--- >>> DISLOSS_H.inc(3) 5 Mb
+--- >> bb4datainc.inc(438) 5 Mb
+--- >>> DISCOST_E.inc(10) 5 Mb
+--- >> bb4datainc.inc(443) 5 Mb
+--- >>> DISCOST_H.inc(18) 5 Mb
+--- >> bb4datainc.inc(448) 5 Mb
+--- >>> FKPOT.inc(36) 5 Mb
+--- >> bb4datainc.inc(453) 5 Mb
+--- >>> TECHGROUPKPOT.inc(31) 5 Mb
+--- >> bb4datainc.inc(457) 5 Mb
+--- >>> SUBTECHGROUPKPOT.inc(117) 5 Mb
+--- >> bb4datainc.inc(461) 5 Mb
+--- >>> subtechgroupkpotadditions.inc(15) 5 Mb
+--- >> bb4datainc.inc(466) 5 Mb
+--- >>> FKMIN.inc(4) 5 Mb
+--- >> bb4datainc.inc(472) 5 Mb
+--- >>> FKMAX.inc(4) 5 Mb
+--- >> bb4datainc.inc(478) 5 Mb
+--- >>> FKEQ.inc(4) 5 Mb
+--- >> bb4datainc.inc(484) 5 Mb
+--- >>> FKMINNA.inc(4) 5 Mb
+--- >> bb4datainc.inc(489) 5 Mb
+--- >>> FKMAXNA.inc(4) 5 Mb
+--- >> bb4datainc.inc(494) 5 Mb
+--- >>> FKEQNA.inc(4) 5 Mb
+--- >> bb4datainc.inc(499) 5 Mb
+--- >>> FGEMIN.inc(5) 5 Mb
+--- >> bb4datainc.inc(504) 5 Mb
+--- >>> FGEMAX.inc(4) 5 Mb
+--- >> bb4datainc.inc(510) 5 Mb
+--- >>> GMINF.inc(5) 5 Mb
+--- >> bb4datainc.inc(516) 5 Mb
+--- >>> GMAXF.inc(22) 5 Mb
+--- >> bb4datainc.inc(522) 5 Mb
+--- >>> GEQF.inc(45) 5 Mb
+--- >> bb4datainc.inc(527) 5 Mb
+--- >>> GMAXFS.inc(39) 5 Mb
+--- >> bb4datainc.inc(532) 5 Mb
+--- >>> WTRRSFLH.inc(14) 5 Mb
+--- >> bb4datainc.inc(537) 5 Mb
+--- >>> WTRRRFLH.inc(15) 5 Mb
+--- >> bb4datainc.inc(543) 5 Mb
+--- >>> WNDFLH.inc(51) 5 Mb
+--- >> bb4datainc.inc(546) 5 Mb
+--- >>> wndflhadditions.inc(15) 5 Mb
+--- >> bb4datainc.inc(551) 5 Mb
+--- >>> SOLEFLH.inc(42) 5 Mb
+--- >> bb4datainc.inc(558) 5 Mb
+--- >>> SOLHFLH.inc(34) 5 Mb
+--- >> bb4datainc.inc(561) 5 Mb
+--- >>> solhflhadditions.inc(13) 5 Mb
+--- >> bb4datainc.inc(566) 5 Mb
+--- >>> WAVEFLH.inc(14) 5 Mb
+--- >> bb4datainc.inc(571) 5 Mb
+--- >>> HYRSDATA.inc(25) 5 Mb
+--- >> bb4datainc.inc(576) 5 Mb
+--- >>> DISCOUNTRATE.inc(2) 5 Mb
+--- >> bb4datainc.inc(581) 5 Mb
+--- >>> LIFETIME_X.inc(2) 5 Mb
+--- >> bb4datainc.inc(586) 5 Mb
+--- >>> ANNUITYCG.inc(1228) 5 Mb
+--- >> bb4datainc.inc(589) 5 Mb
+--- >>> annuitycgadditions.inc(3) 5 Mb
+--- >>>> hydrogen_annuitycgadditions.inc(3) 5 Mb
+--- >>>>> HYDROGEN_ANNUITYCG.inc(39) 5 Mb
+--- >>>> hydrogen_annuitycgadditions.inc(4) 5 Mb
+--- >>> annuitycgadditions.inc(3) 5 Mb
+--- >> bb4datainc.inc(593) 5 Mb
+--- >>> ANNUITYCX.inc(4) 5 Mb
+--- >> bb4datainc.inc(598) 5 Mb
+--- >>> GINVCOST.inc(3) 5 Mb
+--- >> bb4datainc.inc(603) 5 Mb
+--- >>> GOMVCOSTO.inc(6) 5 Mb
+--- >> bb4datainc.inc(608) 5 Mb
+--- >>> GOMVCOSTIN.inc(6) 5 Mb
+--- >> bb4datainc.inc(613) 5 Mb
+--- >>> GOMFCOST.inc(10) 5 Mb
+--- >> bb4datainc.inc(618) 5 Mb
+--- >>> GEFFRATE.inc(5) 5 Mb
+--- >> bb4datainc.inc(623) 5 Mb
+--- >>> DEFP_BASE.inc(10) 5 Mb
+--- >> bb4datainc.inc(628) 5 Mb
+--- >>> DHFP_BASE.inc(35) 5 Mb
+--- >> bb4datainc.inc(633) 5 Mb
+--- >>> GKF_LO.inc(4) 5 Mb
+--- >> bb4datainc.inc(646) 5 Mb
+--- >>> DE.inc(58) 5 Mb
+--- >> bb4datainc.inc(649) 5 Mb
+--- >>> deadditions.inc(17) 5 Mb
+--- >> bb4datainc.inc(657) 5 Mb
+--- >>> DH.inc(158) 5 Mb
+--- >> bb4datainc.inc(660) 5 Mb
+--- >>> dhadditions.inc(13) 5 Mb
+--- >> bb4datainc.inc(667) 5 Mb
+--- >>> XINVCOST.inc(66) 5 Mb
+--- >> bb4datainc.inc(670) 5 Mb
+--- >>> xinvcostadditions.inc(10) 5 Mb
+--- >> bb4datainc.inc(673) 5 Mb
+--- >>> XKFX.inc(58) 5 Mb
+--- >> bb4datainc.inc(679) 5 Mb
+--- >>> XCOST.inc(29) 5 Mb
+--- >> bb4datainc.inc(682) 5 Mb
+--- >>> xcostadditions.inc(10) 5 Mb
+--- >> bb4datainc.inc(686) 5 Mb
+--- >>> XLOSS.inc(40) 5 Mb
+--- >> bb4datainc.inc(689) 5 Mb
+--- >>> xlossadditions.inc(10) 5 Mb
+--- >> bb4datainc.inc(695) 5 Mb
+--- >>> XKRATE.inc(11) 5 Mb
+--- >> bb4datainc.inc(699) 5 Mb
+--- >>> XMAXINV.inc(58) 5 Mb
+--- >> bb4datainc.inc(709) 5 Mb
+--- >>> FUELPRICE.inc(67) 5 Mb
+--- >> bb4datainc.inc(712) 5 Mb
+--- >>> fuelpriceadditions.inc(1) 5 Mb
+--- >>>> hydrogen_fuelpriceadditions.inc(3) 5 Mb
+--- >>>>> HYDROGEN_FUELPRICE.inc(1) 5 Mb
+--- >>>> hydrogen_fuelpriceadditions.inc(4) 5 Mb
+--- >>> fuelpriceadditions.inc(2) 5 Mb
+--- >> bb4datainc.inc(720) 5 Mb
+--- >>> EMI_POL.inc(52) 5 Mb
+--- >> bb4datainc.inc(725) 5 Mb
+--- >>> EMI_POLNA.inc(7) 5 Mb
+--- >> bb4datainc.inc(734) 5 Mb
+--- >>> WEIGHT_S.inc(7) 5 Mb
+--- >> bb4datainc.inc(739) 5 Mb
+--- >>> WEIGHT_T.inc(8) 5 Mb
+--- >> bb4datainc.inc(744) 5 Mb
+--- >>> CHRONOHOUR.inc(4) 5 Mb
+--- >> bb4datainc.inc(749) 5 Mb
+--- >>> SSIZE.inc(3) 5 Mb
+--- >> bb4datainc.inc(755) 5 Mb
+--- >>> GKRATE.inc(93) 5 Mb
+--- >> bb4datainc.inc(760) 5 Mb
+--- >>> DE_VAR_T.inc(17494) 10 Mb
+--- >> bb4datainc.inc(763) 10 Mb
+--- >>> de_var_tadditions.inc(13) 10 Mb
+--- >> bb4datainc.inc(767) 10 Mb
+--- >>> DH_VAR_T.inc(8797) 13 Mb
+--- >> bb4datainc.inc(770) 13 Mb
+--- >>> dh_var_tadditions.inc(13) 13 Mb
+--- >> bb4datainc.inc(774) 13 Mb
+--- >>> WTRRSVAR_S.inc(51) 13 Mb
+--- >> bb4datainc.inc(779) 13 Mb
+--- >>> WTRRRVAR_T.inc(74) 13 Mb
+--- >> bb4datainc.inc(784) 13 Mb
+--- >>> WND_VAR_T.inc(8743) 18 Mb
+--- >>>> WND_VAR_T2.inc(8992) 20 Mb
+--- >>> WND_VAR_T.inc(8992) 20 Mb
+--- >> bb4datainc.inc(787) 20 Mb
+--- >>> wnd_var_tadditions.inc(15) 20 Mb
+--- >> bb4datainc.inc(791) 20 Mb
+--- >>> SOLE_VAR_T.inc(8748) 25 Mb
+--- >> bb4datainc.inc(796) 25 Mb
+--- >>> SOLH_VAR_T.inc(8758) 28 Mb
+--- >> bb4datainc.inc(799) 28 Mb
+--- >>> solh_var_tadditions.inc(13) 28 Mb
+--- >> bb4datainc.inc(803) 28 Mb
+--- >>> WAVE_VAR_T.inc(3) 28 Mb
+--- >> bb4datainc.inc(808) 28 Mb
+--- >>> X3FX.inc(29) 28 Mb
+--- >> bb4datainc.inc(813) 28 Mb
+--- >>> X3FX_VAR_T.inc(17494) 29 Mb
+--- >> bb4datainc.inc(818) 29 Mb
+--- >>> HYPPROFILS.inc(20) 29 Mb
+--- >> bb4datainc.inc(824) 29 Mb
+--- >>> YMODEL.inc(10) 29 Mb
+--- >> bb4datainc.inc(826) 29 Mb
+--- >>> YMODELDELTA.inc(11) 29 Mb
+--- >> bb4datainc.inc(840) 29 Mb
+--- >>> OMONEY.inc(3) 29 Mb
+--- >> bb4datainc.inc(845) 29 Mb
+--- >>> PENALTYQ.inc(5) 29 Mb
+--- >> bb4datainc.inc(850) 29 Mb
+--- >>> XES.inc(4) 29 Mb
+--- >> bb4datainc.inc(856) 29 Mb
+--- >>> pardeclare.inc(24) 29 Mb
+--- >>>> hydrogen_pardeclare.inc(58) 29 Mb
+--- >>> pardeclare.inc(38) 29 Mb
+--- >> bb4datainc.inc(857) 29 Mb
+--- >>> pardefine.inc(26) 29 Mb
+--- >>>> hydrogen_pardefine.inc(3) 29 Mb
+--- >>>>> HYDROGEN_DH2.inc(25) 29 Mb
+--- >>>> hydrogen_pardefine.inc(8) 29 Mb
+--- >>>>> HYDROGEN_DH2_VAR_T.inc(5) 29 Mb
+--- >>>> hydrogen_pardefine.inc(13) 29 Mb
+--- >>>>> HYDROGEN_DISLOSS_H2.inc(2) 29 Mb
+--- >>>> hydrogen_pardefine.inc(22) 29 Mb
+--- >>>>> HYDROGEN_DAC_DE.inc(2) 29 Mb
+--- >>>> hydrogen_pardefine.inc(25) 29 Mb
+--- >>>>> HYDROGEN_DAC_DH.inc(2) 29 Mb
+--- >>>> hydrogen_pardefine.inc(28) 29 Mb
+--- >>>>> HYDROGEN_METHANATION_DE.inc(5) 29 Mb
+--- >>>> hydrogen_pardefine.inc(31) 29 Mb
+--- >>>>> HYDROGEN_METHANATION_DH2.inc(6) 29 Mb
+--- >>>> hydrogen_pardefine.inc(34) 29 Mb
+--- >>>>> HYDROGEN_BIOGASUPGRADING_DE.inc(5) 29 Mb
+--- >>>> hydrogen_pardefine.inc(37) 29 Mb
+--- >>>>> HYDROGEN_XH2KFX.inc(2) 29 Mb
+--- >>>> hydrogen_pardefine.inc(40) 29 Mb
+--- >>>>> HYDROGEN_XH2INVCOST.inc(96) 29 Mb
+--- >>>> hydrogen_pardefine.inc(43) 29 Mb
+--- >>>>> HYDROGEN_XH2INVCOST_NGTOH2.inc(2) 29 Mb
+--- >>>> hydrogen_pardefine.inc(46) 29 Mb
+--- >>>>> HYDROGEN_XH2COST.inc(2) 29 Mb
+--- >>>> hydrogen_pardefine.inc(49) 29 Mb
+--- >>>>> HYDROGEN_XH2LOSS.inc(79) 29 Mb
+--- >>>> hydrogen_pardefine.inc(52) 29 Mb
+--- >>>>> HYDROGEN_XH2KRATE.inc(2) 29 Mb
+--- >>>> hydrogen_pardefine.inc(55) 29 Mb
+--- >>>>> HYDROGEN_ANNUITYCXH2.inc(4) 29 Mb
+--- >>>> hydrogen_pardefine.inc(58) 29 Mb
+--- >>>>> HYDROGEN_XH2MAXK_NGTOH2.inc(2) 29 Mb
+--- >>>> hydrogen_pardefine.inc(61) 29 Mb
+--- >>>>> HYDROGEN_LIFETIME_XH2.inc(2) 29 Mb
+--- >>>> hydrogen_pardefine.inc(65) 29 Mb
+--- >>>>> HYDROGEN_XH2INVCOST_ES.inc(15) 29 Mb
+--- >>>> hydrogen_pardefine.inc(68) 29 Mb
+--- >>>>> HYDROGEN_XH2KN_ES.inc(14) 29 Mb
+--- >>>> hydrogen_pardefine.inc(70) 29 Mb
+--- >>> pardefine.inc(50) 29 Mb
+--- >> bb4datainc.inc(859) 29 Mb
+--- > Balmorelbb4.inc(475) 29 Mb
+--- >> isetdecdef.inc(13) 29 Mb
+--- >>> hydrogen_isetdecdef.inc(61) 29 Mb
+--- >> isetdecdef.inc(33) 29 Mb
+--- > Balmorelbb4.inc(926) 29 Mb
+--- >> ipardecdef.inc(11) 29 Mb
+--- >>> hydrogen_ipardecdef.inc(29) 29 Mb
+--- >> ipardecdef.inc(26) 29 Mb
+--- > Balmorelbb4.inc(1041) 29 Mb
+--- >> print1.inc(353) 29 Mb
+--- > Balmorelbb4.inc(1046) 29 Mb
+--- >> error2.inc(1119) 29 Mb
+--- > Balmorelbb4.inc(1077) 29 Mb
+--- >> reducecard.inc(4) 29 Mb
+--- > Balmorelbb4.inc(1179) 29 Mb
+--- >> vardeclare.inc(17) 29 Mb
+--- >>> hydrogen_vardeclare.inc(21) 29 Mb
+--- >> vardeclare.inc(43) 29 Mb
+--- > Balmorelbb4.inc(1391) 29 Mb
+--- >> qobj.inc(19) 29 Mb
+--- >>> hydrogen_qobj.inc(79) 29 Mb
+--- >> qobj.inc(42) 29 Mb
+--- > Balmorelbb4.inc(1419) 29 Mb
+--- >> qeeq.inc(11) 29 Mb
+--- >>> hydrogen_qeeq.inc(14) 29 Mb
+--- >> qeeq.inc(29) 29 Mb
+--- > Balmorelbb4.inc(1436) 29 Mb
+--- >> qheq.inc(15) 29 Mb
+--- >>> hydrogen_qheq.inc(7) 29 Mb
+--- >> qheq.inc(24) 29 Mb
+--- > Balmorelbb4.inc(1468) 29 Mb
+--- >> qgfeq.inc(16) 29 Mb
+--- >>> hydrogen_qgfeq.inc(6) 29 Mb
+--- >> qgfeq.inc(24) 29 Mb
+--- > Balmorelbb4.inc(1489) 29 Mb
+--- >> qgcbgbprbypass2.inc(12) 29 Mb
+--- > Balmorelbb4.inc(1517) 29 Mb
+--- >> qgcvgext.inc(12) 29 Mb
+--- > Balmorelbb4.inc(1538) 29 Mb
+--- >> qgcvgextbypass1.inc(12) 29 Mb
+--- > Balmorelbb4.inc(1547) 29 Mb
+--- >> qgfeqextbypass1.inc(10) 29 Mb
+--- > Balmorelbb4.inc(1555) 29 Mb
+--- >> qgfeqextbypass2.inc(10) 29 Mb
+--- > Balmorelbb4.inc(1564) 29 Mb
+--- >> qggetoh.inc(4) 29 Mb
+--- > Balmorelbb4.inc(1590) 29 Mb
+--- >> qhyrsseq.inc(10) 29 Mb
+--- > Balmorelbb4.inc(1601) 29 Mb
+--- >> qhyrsminvol.inc(8) 29 Mb
+--- > Balmorelbb4.inc(1613) 29 Mb
+--- >> qhyrsmaxvol.inc(8) 29 Mb
+--- > Balmorelbb4.inc(1629) 29 Mb
+--- >> qhymaxg.inc(8) 29 Mb
+--- > Balmorelbb4.inc(1643) 29 Mb
+--- >> qestovolt.inc(8) 29 Mb
+--- > Balmorelbb4.inc(1656) 29 Mb
+--- >> qestovolts.inc(11) 29 Mb
+--- > Balmorelbb4.inc(1666) 29 Mb
+--- >> qhstovolt.inc(8) 29 Mb
+--- > Balmorelbb4.inc(1679) 29 Mb
+--- >> qhstovolts.inc(10) 29 Mb
+--- > Balmorelbb4.inc(1839) 29 Mb
+--- >> qkefuelc.inc(8) 29 Mb
+--- > Balmorelbb4.inc(1850) 29 Mb
+--- >> qkefuelr.inc(8) 29 Mb
+--- > Balmorelbb4.inc(1861) 29 Mb
+--- >> qkefuela.inc(8) 29 Mb
+--- > Balmorelbb4.inc(1914) 29 Mb
+--- >> qgeqcf.inc(8) 29 Mb
+--- > Balmorelbb4.inc(1932) 29 Mb
+--- >> qgeqrf.inc(8) 29 Mb
+--- > Balmorelbb4.inc(1949) 29 Mb
+--- >> qgeqaf.inc(8) 29 Mb
+--- > Balmorelbb4.inc(2072) 29 Mb
+--- >> qktechgroupc.inc(8) 29 Mb
+--- > Balmorelbb4.inc(2083) 29 Mb
+--- >> qktechgroupr.inc(8) 29 Mb
+--- > Balmorelbb4.inc(2094) 29 Mb
+--- >> qktechgroupa.inc(8) 29 Mb
+--- > Balmorelbb4.inc(2147) 29 Mb
+--- >> qxk_up.inc(8) 29 Mb
+--- > Balmorelbb4.inc(2165) 29 Mb
+--- >> qxknaccumnet.inc(8) 29 Mb
+--- > Balmorelbb4.inc(2183) 29 Mb
+--- >> qlimco2c.inc(10) 29 Mb
+--- > Balmorelbb4.inc(2202) 29 Mb
+--- >> qlimco2na.inc(10) 29 Mb
+--- > Balmorelbb4.inc(2236) 29 Mb
+--- >> qgknaccumnet.inc(9) 29 Mb
+--- > Balmorelbb4.inc(2261) 29 Mb
+--- >> qgke_up.inc(8) 29 Mb
+--- > Balmorelbb4.inc(2271) 29 Mb
+--- >> qgkh_up.inc(8) 29 Mb
+--- > Balmorelbb4.inc(2382) 29 Mb
+--- >> eqndecdef.inc(24) 29 Mb
+--- >>> hydrogen_eqndecdef.inc(61) 29 Mb
+--- >>>> qhydrogen_eq.inc(10) 29 Mb
+--- >>> hydrogen_eqndecdef.inc(81) 29 Mb
+--- >>>> qhydrogen_eq_area.inc(8) 29 Mb
+--- >>> hydrogen_eqndecdef.inc(102) 29 Mb
+--- >>>> qhydrogen_stovol.inc(10) 29 Mb
+--- >>> hydrogen_eqndecdef.inc(167) 29 Mb
+--- >>>> qbiomethane_stovolts.inc(7) 29 Mb
+--- >>> hydrogen_eqndecdef.inc(257) 29 Mb
+--- >> eqndecdef.inc(41) 29 Mb
+--- > Balmorelbb4.inc(2534) 29 Mb
+--- >> balbase4.inc(10) 29 Mb
+--- >>> hydrogen_balbase4.inc(28) 29 Mb
+--- >> balbase4.inc(30) 29 Mb
+--- > Balmorelbb4.inc(2554) 29 Mb
+--- >> error2.inc(15) 29 Mb
+--- > Balmorelbb4.inc(2555) 29 Mb
+--- >> errorBB4.inc(62) 29 Mb
+--- > Balmorelbb4.inc(2582) 29 Mb
+--- >> BB4overview.inc(114) 29 Mb
+--- > Balmorelbb4.inc(2587) 29 Mb
+--- >> Balmorelbb4.sim(223) 29 Mb
+--- >>> sim.inc(27) 29 Mb
+--- >>>> hydrogen_sim.inc(23) 29 Mb
+--- >>> sim.inc(30) 29 Mb
+--- >> Balmorelbb4.sim(224) 29 Mb
+--- >>> varloupfx.inc(10) 29 Mb
+--- >> Balmorelbb4.sim(277) 29 Mb
+--- >>> solveend.inc(18) 29 Mb
+--- >> Balmorelbb4.sim(282) 29 Mb
+--- >>> balbase4.mss(120) 29 Mb
+--- >> Balmorelbb4.sim(317) 29 Mb
+--- >>> errorBB4.inc(62) 29 Mb
+--- >> Balmorelbb4.sim(344) 29 Mb
+--- >>> varassign.inc(6) 29 Mb
+--- >>>> hydrogen_varassign.inc(7) 29 Mb
+--- >>> varassign.inc(7) 29 Mb
+--- >> Balmorelbb4.sim(367) 29 Mb
+--- > Balmorelbb4.inc(2593) 29 Mb
+--- >> OUTPUT_SUMMARY.inc(1901) 29 Mb
+--- > Balmorelbb4.inc(2852) 29 Mb
+--- Balmorel.gms(210) 29 Mb
+--- Starting execution: elapsed 0:00:00.932
+--- Balmorel.gms(57222) 66 Mb  15 secs
+--- Balmorel.gms(66208) 66 Mb  3 secs
+--- Balmorel.gms(93523) 66 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_4_low_low\output\temp\IWEIGHTY.gdx
+--- Balmorel.gms(94088) 89 Mb
+--- Balmorel.gms(95125) 94 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_4_low_low\output\inputout\INPUTDATAOUT.gdx
+--- Balmorel.gms(97800) 104 Mb
+--- Generating LP model BALBASE4
+--- Balmorel.gms(98048) 565 Mb
+--- LOOPS IYALIAS = 2030
+---   1,143,116 rows  1,277,688 columns  4,136,847 non-zeroes
+--- Range statistics (absolute non-zero finite values)
+--- RHS       [min, max] : [ 1.488E-02, 2.893E+09] - Zero values observed as well
+--- Bound     [min, max] : [ 2.529E-05, 4.061E+03] - Zero values observed as well
+--- Matrix    [min, max] : [ 1.304E-09, 4.693E+01]
+--- Executing CPLEX (Solvelink=2): elapsed 0:00:30.184
+
+IBM ILOG CPLEX   54.0.0 3d4dc8b6 May 30, 2026   (BETA) WEI x86 64bit/MS Window
+
+--- GAMS/CPLEX licensed for continuous and discrete problems.
+
+--- Reading option file 'C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_4_low_low\model\cplex.op4':
+--- Skipping '* Option file 4 for CPLEX solver. For possible options, see the GAMS Solver Manual.'
+--- Skipping '* To use with CPLEX,  set  '$Setglobal USEOPTIONFILE 4' in balgams.opt.'
+--- Skipping '* Do not change this file, it is predefined.'
+--- Skipping '* To use other options with CPLEX, make and/or use some other file, see USEOPTIONFILE in balgams.opt.'
+--- Skipping '* "LPmethod  4": Barrier method'
+--- Skipping '* "Threads  -1": Use all available threads except 1.'
+--- Skipping '* If memory tight, set the Threads parameter to 1.'
+--- Skipping '* advind is set to 0 by default since for large problems a better performance has been experienced. If 0, the optimization will not use the previous solution to try to find the next run faster.'
+--- Setting 'LPmethod': 4
+--- Setting 'Threads': -1
+--- Setting 'advind': 0
+
+--- GMO setup time: 0.00s
+--- Space for names approximately 161.26 Mb
+--- Use option 'names no' to turn use of names off
+--- GMO memory 463.40 Mb (peak 473.15 Mb)
+--- Dictionary memory 0.00 Mb
+--- Cplex 22.1.2.0 link memory 37.45 Mb (peak 264.00 Mb)
+--- Starting Cplex
+
+Version identifier: 22.1.2.0 | 2024-11-25 | 0edbb82fd
+CPXPARAM_Advance                                 0
+CPXPARAM_LPMethod                                4
+CPXPARAM_Threads                                 7
+CPXPARAM_Parallel                                1
+CPXPARAM_MIP_Display                             4
+CPXPARAM_MIP_Pool_Capacity                       0
+CPXPARAM_Preprocessing_QCPDuals                  0
+CPXPARAM_Barrier_Limits_Iteration                2000000000
+CPXPARAM_TimeLimit                               1209600
+CPXPARAM_MIP_Tolerances_AbsMIPGap                0
+CPXPARAM_MIP_Tolerances_MIPGap                   9.9999999999999995e-07
+Tried aggregator 1 time.
+LP Presolve eliminated 350454 rows and 355050 columns.
+Aggregator did 271441 substitutions.
+Reduced LP has 521220 rows, 651203 columns, and 2125498 nonzeros.
+Presolve time = 4.97 sec. (6734.66 ticks)
+Parallel mode: using up to 7 threads for barrier.
+
+***NOTE: Found 404 dense columns.
+
+Number of nonzeros in lower triangle of A*A' = 1347695
+Using Approximate Minimum Degree ordering
+Total time for automatic ordering = 0.25 sec. (128.77 ticks)
+Summary statistics for Cholesky factor:
+  Threads                   = 7
+  Rows in Factor            = 521624
+  Integer space required    = 1699241
+  Total non-zeros in factor = 7435244
+  Total FP ops to factor    = 2256134662
+ Itn      Primal Obj        Dual Obj  Prim Inf Upper Inf  Dual Inf Inf Ratio
+   0   1.1165013e+11  -6.5087281e+09  3.27e+08  1.45e+08  6.26e+08  1.00e+00
+   1   1.0744805e+11   2.6044995e+09  2.81e+08  1.25e+08  5.61e+08  3.21e-05
+   2   1.0515850e+11   9.4998504e+09  2.64e+08  1.17e+08  5.03e+08  2.27e-05
+   3   8.0576255e+10   1.0652703e+10  1.91e+08  8.50e+07  4.17e+08  2.38e-05
+   4   7.4940789e+10   7.2966232e+09  1.84e+08  8.20e+07  4.02e+08  2.48e-05
+   5   6.0285416e+10   5.2699552e+09  1.50e+08  6.69e+07  3.33e+08  2.44e-05
+   6   5.0341710e+10   4.0167136e+09  1.26e+08  5.62e+07  2.76e+08  2.47e-05
+   7   4.0946608e+10   3.9239378e+09  1.01e+08  4.51e+07  2.51e+08  2.61e-05
+   8   3.2483776e+10   4.0215404e+09  7.76e+07  3.45e+07  2.20e+08  2.84e-05
+   9   2.5575846e+10   4.0741619e+09  5.83e+07  2.60e+07  2.03e+08  3.07e-05
+  10   1.9696192e+10   4.1773245e+09  4.20e+07  1.87e+07  1.59e+08  3.59e-05
+  11   1.5322762e+10   4.2868216e+09  2.99e+07  1.33e+07  1.14e+08  4.48e-05
+  12   1.2341693e+10   4.3819495e+09  2.14e+07  9.53e+06  9.25e+07  5.32e-05
+  13   1.0363049e+10   4.4608749e+09  1.58e+07  7.05e+06  7.22e+07  6.53e-05
+  14   8.6444524e+09   4.4820710e+09  1.11e+07  4.96e+06  5.88e+07  7.89e-05
+  15   6.9420395e+09   4.4658017e+09  6.65e+06  2.96e+06  4.33e+07  1.06e-04
+  16   6.2553659e+09   4.4106366e+09  4.96e+06  2.21e+06  3.31e+07  1.36e-04
+  17   5.6846463e+09   4.3420944e+09  3.65e+06  1.63e+06  2.60e+07  1.73e-04
+  18   5.4090119e+09   4.2685325e+09  3.05e+06  1.36e+06  2.02e+07  2.20e-04
+  19   5.1574796e+09   4.1712762e+09  2.53e+06  1.13e+06  1.44e+07  3.03e-04
+  20   4.9206148e+09   4.1031735e+09  2.08e+06  9.25e+05  1.14e+07  3.80e-04
+  21   4.6720562e+09   4.0692422e+09  1.61e+06  7.18e+05  1.01e+07  4.33e-04
+  22   4.5384487e+09   4.0030748e+09  1.36e+06  6.06e+05  7.53e+06  5.78e-04
+  23   4.4033307e+09   3.9572901e+09  1.12e+06  4.99e+05  6.02e+06  7.22e-04
+  24   4.2892397e+09   3.9105521e+09  9.23e+05  4.11e+05  4.61e+06  9.40e-04
+  25   4.1774337e+09   3.9025637e+09  7.35e+05  3.27e+05  4.39e+06  9.89e-04
+  26   4.1440451e+09   3.8802752e+09  6.78e+05  3.02e+05  3.77e+06  1.15e-03
+  27   4.1008207e+09   3.8741895e+09  6.07e+05  2.70e+05  3.61e+06  1.20e-03
+  28   4.0242432e+09   3.8600033e+09  4.80e+05  2.14e+05  3.25e+06  1.34e-03
+  29   3.9732356e+09   3.8436009e+09  3.96e+05  1.76e+05  2.83e+06  1.54e-03
+  30   3.9644031e+09   3.8416454e+09  3.82e+05  1.70e+05  2.79e+06  1.56e-03
+  31   3.9355249e+09   3.8241253e+09  3.37e+05  1.50e+05  2.38e+06  1.84e-03
+  32   3.9281912e+09   3.8214424e+09  3.26e+05  1.45e+05  2.32e+06  1.88e-03
+  33   3.9214608e+09   3.8106711e+09  3.16e+05  1.41e+05  2.10e+06  2.10e-03
+  34   3.9181315e+09   3.8083383e+09  3.11e+05  1.38e+05  2.05e+06  2.15e-03
+  35   3.9001606e+09   3.7988301e+09  2.85e+05  1.27e+05  1.87e+06  2.36e-03
+  36   3.8929923e+09   3.7966087e+09  2.75e+05  1.22e+05  1.83e+06  2.40e-03
+  37   3.8839373e+09   3.7882711e+09  2.63e+05  1.17e+05  1.68e+06  2.62e-03
+  38   3.8801446e+09   3.7853207e+09  2.57e+05  1.15e+05  1.63e+06  2.71e-03
+  39   3.8619521e+09   3.7783655e+09  2.33e+05  1.04e+05  1.51e+06  2.90e-03
+  40   3.8537920e+09   3.7767051e+09  2.22e+05  9.88e+04  1.48e+06  2.94e-03
+  41   3.8515963e+09   3.7740454e+09  2.19e+05  9.75e+04  1.44e+06  3.04e-03
+  42   3.8432497e+09   3.7693257e+09  2.08e+05  9.27e+04  1.36e+06  3.21e-03
+  43   3.8399039e+09   3.7663035e+09  2.04e+05  9.07e+04  1.32e+06  3.33e-03
+  44   3.8313200e+09   3.7630716e+09  1.93e+05  8.58e+04  1.27e+06  3.45e-03
+  45   3.8294067e+09   3.7603265e+09  1.90e+05  8.47e+04  1.22e+06  3.58e-03
+  46   3.8291396e+09   3.7595598e+09  1.90e+05  8.46e+04  1.21e+06  3.62e-03
+  47   3.8226885e+09   3.7573973e+09  1.82e+05  8.09e+04  1.18e+06  3.71e-03
+  48   3.8133477e+09   3.7530554e+09  1.70e+05  7.57e+04  1.11e+06  3.91e-03
+  49   3.8083827e+09   3.7501010e+09  1.64e+05  7.30e+04  1.07e+06  4.07e-03
+  50   3.8004924e+09   3.7473106e+09  1.54e+05  6.86e+04  1.03e+06  4.21e-03
+  51   3.7970257e+09   3.7447511e+09  1.50e+05  6.68e+04  9.96e+05  4.37e-03
+  52   3.7911315e+09   3.7415299e+09  1.43e+05  6.36e+04  9.51e+05  4.58e-03
+  53   3.7881334e+09   3.7385470e+09  1.39e+05  6.20e+04  9.10e+05  4.80e-03
+  54   3.7850633e+09   3.7357766e+09  1.36e+05  6.03e+04  8.72e+05  5.01e-03
+  55   3.7798937e+09   3.7319054e+09  1.29e+05  5.76e+04  8.20e+05  5.33e-03
+  56   3.7774179e+09   3.7292079e+09  1.27e+05  5.63e+04  7.85e+05  5.58e-03
+  57   3.7745235e+09   3.7270259e+09  1.23e+05  5.48e+04  7.57e+05  5.79e-03
+  58   3.7702297e+09   3.7242462e+09  1.18e+05  5.26e+04  7.22e+05  6.06e-03
+  59   3.7700773e+09   3.7228888e+09  1.18e+05  5.26e+04  7.05e+05  6.22e-03
+  60   3.7620212e+09   3.7196316e+09  1.09e+05  4.85e+04  6.65e+05  6.56e-03
+  61   3.7594839e+09   3.7170179e+09  1.06e+05  4.72e+04  6.33e+05  6.90e-03
+  62   3.7563986e+09   3.7125610e+09  1.03e+05  4.57e+04  5.80e+05  7.57e-03
+  63   3.7538832e+09   3.7098107e+09  9.99e+04  4.45e+04  5.48e+05  8.02e-03
+  64   3.7508915e+09   3.7073287e+09  9.67e+04  4.30e+04  5.19e+05  8.47e-03
+  65   3.7492422e+09   3.7045970e+09  9.49e+04  4.22e+04  4.87e+05  9.03e-03
+  66   3.7469678e+09   3.7033987e+09  9.24e+04  4.11e+04  4.74e+05  9.27e-03
+  67   3.7425852e+09   3.7004925e+09  8.77e+04  3.90e+04  4.41e+05  9.93e-03
+  68   3.7414964e+09   3.6991099e+09  8.65e+04  3.85e+04  4.25e+05  1.03e-02
+  69   3.7411224e+09   3.6985040e+09  8.61e+04  3.83e+04  4.19e+05  1.05e-02
+  70   3.7373643e+09   3.6959886e+09  8.21e+04  3.65e+04  3.91e+05  1.11e-02
+  71   3.7342632e+09   3.6938181e+09  7.88e+04  3.51e+04  3.68e+05  1.18e-02
+  72   3.7311563e+09   3.6918129e+09  7.56e+04  3.36e+04  3.47e+05  1.25e-02
+  73   3.7288787e+09   3.6895963e+09  7.32e+04  3.26e+04  3.23e+05  1.33e-02
+  74   3.7272518e+09   3.6876459e+09  7.15e+04  3.18e+04  3.03e+05  1.42e-02
+  75   3.7243096e+09   3.6853288e+09  6.85e+04  3.05e+04  2.80e+05  1.52e-02
+  76   3.7214235e+09   3.6835956e+09  6.56e+04  2.92e+04  2.63e+05  1.61e-02
+  77   3.7201160e+09   3.6818000e+09  6.42e+04  2.86e+04  2.46e+05  1.72e-02
+  78   3.7189876e+09   3.6801946e+09  6.31e+04  2.81e+04  2.30e+05  1.82e-02
+  79   3.7178695e+09   3.6794161e+09  6.20e+04  2.76e+04  2.23e+05  1.87e-02
+  80   3.7155724e+09   3.6775012e+09  5.97e+04  2.66e+04  2.05e+05  2.01e-02
+  81   3.7131637e+09   3.6766424e+09  5.73e+04  2.55e+04  1.97e+05  2.08e-02
+  82   3.7095318e+09   3.6747250e+09  5.38e+04  2.39e+04  1.80e+05  2.24e-02
+  83   3.7073153e+09   3.6733894e+09  5.16e+04  2.30e+04  1.68e+05  2.37e-02
+  84   3.7057722e+09   3.6723024e+09  5.01e+04  2.23e+04  1.59e+05  2.48e-02
+  85   3.7037560e+09   3.6712223e+09  4.82e+04  2.15e+04  1.50e+05  2.60e-02
+  86   3.7013976e+09   3.6705781e+09  4.60e+04  2.05e+04  1.45e+05  2.67e-02
+  87   3.7002616e+09   3.6699834e+09  4.49e+04  2.00e+04  1.40e+05  2.74e-02
+  88   3.6982184e+09   3.6691633e+09  4.30e+04  1.91e+04  1.34e+05  2.84e-02
+  89   3.6968669e+09   3.6684037e+09  4.18e+04  1.86e+04  1.28e+05  2.95e-02
+  90   3.6948278e+09   3.6678325e+09  3.99e+04  1.77e+04  1.23e+05  3.01e-02
+  91   3.6931566e+09   3.6673527e+09  3.84e+04  1.71e+04  1.20e+05  3.07e-02
+  92   3.6925021e+09   3.6668386e+09  3.78e+04  1.68e+04  1.16e+05  3.15e-02
+  93   3.6914731e+09   3.6664265e+09  3.68e+04  1.64e+04  1.13e+05  3.21e-02
+  94   3.6908730e+09   3.6661270e+09  3.63e+04  1.62e+04  1.11e+05  3.26e-02
+  95   3.6902016e+09   3.6657927e+09  3.57e+04  1.59e+04  1.09e+05  3.31e-02
+  96   3.6896998e+09   3.6655060e+09  3.53e+04  1.57e+04  1.07e+05  3.36e-02
+  97   3.6894020e+09   3.6652562e+09  3.50e+04  1.56e+04  1.05e+05  3.40e-02
+  98   3.6883244e+09   3.6645855e+09  3.41e+04  1.52e+04  1.01e+05  3.52e-02
+  99   3.6881138e+09   3.6642991e+09  3.39e+04  1.51e+04  9.88e+04  3.58e-02
+ 100   3.6873586e+09   3.6639977e+09  3.32e+04  1.48e+04  9.68e+04  3.63e-02
+ 101   3.6872956e+09   3.6638822e+09  3.32e+04  1.48e+04  9.61e+04  3.65e-02
+ 102   3.6857887e+09   3.6634688e+09  3.19e+04  1.42e+04  9.34e+04  3.72e-02
+ 103   3.6854391e+09   3.6632724e+09  3.16e+04  1.40e+04  9.22e+04  3.75e-02
+ 104   3.6841302e+09   3.6629514e+09  3.04e+04  1.35e+04  9.01e+04  3.80e-02
+ 105   3.6833678e+09   3.6628108e+09  2.98e+04  1.33e+04  8.93e+04  3.81e-02
+ 106   3.6825197e+09   3.6622652e+09  2.91e+04  1.29e+04  8.60e+04  3.92e-02
+ 107   3.6819316e+09   3.6621499e+09  2.86e+04  1.27e+04  8.53e+04  3.94e-02
+ 108   3.6814472e+09   3.6618122e+09  2.82e+04  1.25e+04  8.33e+04  4.01e-02
+ 109   3.6812489e+09   3.6615906e+09  2.80e+04  1.25e+04  8.20e+04  4.07e-02
+ 110   3.6805219e+09   3.6611948e+09  2.74e+04  1.22e+04  7.96e+04  4.16e-02
+ 111   3.6804259e+09   3.6610193e+09  2.73e+04  1.22e+04  7.86e+04  4.21e-02
+ 112   3.6794228e+09   3.6606378e+09  2.65e+04  1.18e+04  7.64e+04  4.28e-02
+ 113   3.6793242e+09   3.6604847e+09  2.64e+04  1.17e+04  7.55e+04  4.33e-02
+ 114   3.6786142e+09   3.6602805e+09  2.58e+04  1.15e+04  7.44e+04  4.37e-02
+ 115   3.6785263e+09   3.6599303e+09  2.58e+04  1.15e+04  7.24e+04  4.48e-02
+ 116   3.6780053e+09   3.6597406e+09  2.53e+04  1.13e+04  7.13e+04  4.52e-02
+ 117   3.6774364e+09   3.6594267e+09  2.49e+04  1.11e+04  6.96e+04  4.61e-02
+ 118   3.6766212e+09   3.6591223e+09  2.42e+04  1.08e+04  6.79e+04  4.69e-02
+ 119   3.6763808e+09   3.6590185e+09  2.40e+04  1.07e+04  6.73e+04  4.72e-02
+ 120   3.6760226e+09   3.6587896e+09  2.37e+04  1.05e+04  6.61e+04  4.79e-02
+ 121   3.6759660e+09   3.6584249e+09  2.37e+04  1.05e+04  6.41e+04  4.93e-02
+ 122   3.6755136e+09   3.6580399e+09  2.33e+04  1.04e+04  6.20e+04  5.07e-02
+ 123   3.6754147e+09   3.6577022e+09  2.32e+04  1.03e+04  6.01e+04  5.21e-02
+ 124   3.6749285e+09   3.6572751e+09  2.28e+04  1.02e+04  5.78e+04  5.37e-02
+ 125   3.6747668e+09   3.6571523e+09  2.27e+04  1.01e+04  5.71e+04  5.42e-02
+ 126   3.6737570e+09   3.6568496e+09  2.19e+04  9.74e+03  5.55e+04  5.52e-02
+ 127   3.6729136e+09   3.6565474e+09  2.12e+04  9.44e+03  5.39e+04  5.64e-02
+ 128   3.6722158e+09   3.6562793e+09  2.06e+04  9.19e+03  5.25e+04  5.75e-02
+ 129   3.6717054e+09   3.6559519e+09  2.02e+04  9.01e+03  5.07e+04  5.91e-02
+ 130   3.6715238e+09   3.6557474e+09  2.01e+04  8.94e+03  4.96e+04  6.02e-02
+ 131   3.6712199e+09   3.6555185e+09  1.98e+04  8.83e+03  4.84e+04  6.14e-02
+ 132   3.6706392e+09   3.6551848e+09  1.94e+04  8.63e+03  4.66e+04  6.32e-02
+ 133   3.6696426e+09   3.6547846e+09  1.86e+04  8.27e+03  4.45e+04  6.53e-02
+ 134   3.6693348e+09   3.6544916e+09  1.83e+04  8.16e+03  4.30e+04  6.73e-02
+ 135   3.6687341e+09   3.6543675e+09  1.79e+04  7.95e+03  4.23e+04  6.79e-02
+ 136   3.6677665e+09   3.6540720e+09  1.71e+04  7.61e+03  4.08e+04  6.96e-02
+ 137   3.6672690e+09   3.6538507e+09  1.67e+04  7.43e+03  3.96e+04  7.12e-02
+ 138   3.6661898e+09   3.6536485e+09  1.58e+04  7.05e+03  3.85e+04  7.24e-02
+ 139   3.6660070e+09   3.6535763e+09  1.57e+04  6.98e+03  3.82e+04  7.29e-02
+ 140   3.6655844e+09   3.6533647e+09  1.54e+04  6.83e+03  3.71e+04  7.47e-02
+ 141   3.6649679e+09   3.6530824e+09  1.49e+04  6.62e+03  3.56e+04  7.71e-02
+ 142   3.6645757e+09   3.6529770e+09  1.46e+04  6.48e+03  3.50e+04  7.80e-02
+ 143   3.6644694e+09   3.6527241e+09  1.45e+04  6.44e+03  3.37e+04  8.07e-02
+ 144   3.6638968e+09   3.6525394e+09  1.40e+04  6.24e+03  3.28e+04  8.26e-02
+ 145   3.6638106e+09   3.6522537e+09  1.39e+04  6.21e+03  3.12e+04  8.60e-02
+ 146   3.6630285e+09   3.6519968e+09  1.33e+04  5.93e+03  2.99e+04  8.90e-02
+ 147   3.6621477e+09   3.6517890e+09  1.26e+04  5.62e+03  2.88e+04  9.13e-02
+ 148   3.6616608e+09   3.6515874e+09  1.22e+04  5.44e+03  2.77e+04  9.40e-02
+ 149   3.6608421e+09   3.6513599e+09  1.16e+04  5.16e+03  2.66e+04  9.70e-02
+ 150   3.6600667e+09   3.6510644e+09  1.10e+04  4.88e+03  2.51e+04  1.02e-01
+ 151   3.6590258e+09   3.6509216e+09  1.01e+04  4.52e+03  2.43e+04  1.04e-01
+ 152   3.6586317e+09   3.6508128e+09  9.84e+03  4.38e+03  2.38e+04  1.06e-01
+ 153   3.6578430e+09   3.6505867e+09  9.21e+03  4.10e+03  2.26e+04  1.10e-01
+ 154   3.6574831e+09   3.6505033e+09  8.92e+03  3.97e+03  2.21e+04  1.12e-01
+ 155   3.6570948e+09   3.6503264e+09  8.61e+03  3.83e+03  2.12e+04  1.16e-01
+ 156   3.6569884e+09   3.6502199e+09  8.53e+03  3.79e+03  2.06e+04  1.19e-01
+ 157   3.6563717e+09   3.6500221e+09  8.04e+03  3.58e+03  1.96e+04  1.24e-01
+ 158   3.6560858e+09   3.6499527e+09  7.81e+03  3.47e+03  1.92e+04  1.26e-01
+ 159   3.6556557e+09   3.6497428e+09  7.47e+03  3.32e+03  1.81e+04  1.33e-01
+ 160   3.6554273e+09   3.6495743e+09  7.29e+03  3.24e+03  1.73e+04  1.39e-01
+ 161   3.6550882e+09   3.6494192e+09  7.02e+03  3.12e+03  1.65e+04  1.45e-01
+ 162   3.6548317e+09   3.6493074e+09  6.81e+03  3.03e+03  1.59e+04  1.49e-01
+ 163   3.6546257e+09   3.6492444e+09  6.65e+03  2.96e+03  1.56e+04  1.52e-01
+ 164   3.6543603e+09   3.6490021e+09  6.44e+03  2.87e+03  1.43e+04  1.63e-01
+ 165   3.6542370e+09   3.6488115e+09  6.34e+03  2.82e+03  1.33e+04  1.74e-01
+ 166   3.6539094e+09   3.6486179e+09  6.08e+03  2.71e+03  1.23e+04  1.85e-01
+ 167   3.6534468e+09   3.6484404e+09  5.72e+03  2.55e+03  1.15e+04  1.96e-01
+ 168   3.6532770e+09   3.6483382e+09  5.59e+03  2.49e+03  1.10e+04  2.03e-01
+ 169   3.6530800e+09   3.6482663e+09  5.44e+03  2.42e+03  1.06e+04  2.09e-01
+ 170   3.6526392e+09   3.6481882e+09  5.09e+03  2.27e+03  1.02e+04  2.15e-01
+ 171   3.6523213e+09   3.6480367e+09  4.85e+03  2.16e+03  9.49e+03  2.28e-01
+ 172   3.6520472e+09   3.6479382e+09  4.63e+03  2.06e+03  9.02e+03  2.38e-01
+ 173   3.6518213e+09   3.6478153e+09  4.46e+03  1.98e+03  8.42e+03  2.52e-01
+ 174   3.6513479e+09   3.6476813e+09  4.09e+03  1.82e+03  7.77e+03  2.69e-01
+ 175   3.6511066e+09   3.6476114e+09  3.90e+03  1.74e+03  7.43e+03  2.79e-01
+ 176   3.6507503e+09   3.6475240e+09  3.63e+03  1.61e+03  7.00e+03  2.93e-01
+ 177   3.6505215e+09   3.6474618e+09  3.45e+03  1.53e+03  6.70e+03  3.04e-01
+ 178   3.6504647e+09   3.6474201e+09  3.40e+03  1.51e+03  6.49e+03  3.13e-01
+ 179   3.6501146e+09   3.6473881e+09  3.13e+03  1.39e+03  6.34e+03  3.19e-01
+ 180   3.6499059e+09   3.6473147e+09  2.97e+03  1.32e+03  5.97e+03  3.36e-01
+ 181   3.6495649e+09   3.6472657e+09  2.70e+03  1.20e+03  5.72e+03  3.48e-01
+ 182   3.6494560e+09   3.6471388e+09  2.61e+03  1.16e+03  5.08e+03  3.87e-01
+ 183   3.6492578e+09   3.6470698e+09  2.46e+03  1.09e+03  4.74e+03  4.10e-01
+ 184   3.6490989e+09   3.6470253e+09  2.34e+03  1.04e+03  4.52e+03  4.27e-01
+ 185   3.6487551e+09   3.6469781e+09  2.07e+03  9.20e+02  4.29e+03  4.47e-01
+ 186   3.6485247e+09   3.6469298e+09  1.89e+03  8.39e+02  4.04e+03  4.71e-01
+ 187   3.6484193e+09   3.6468941e+09  1.80e+03  8.02e+02  3.87e+03  4.91e-01
+ 188   3.6482358e+09   3.6468520e+09  1.66e+03  7.38e+02  3.65e+03  5.16e-01
+ 189   3.6480335e+09   3.6468073e+09  1.50e+03  6.67e+02  3.42e+03  5.47e-01
+ 190   3.6479089e+09   3.6467784e+09  1.40e+03  6.23e+02  3.28e+03  5.70e-01
+ 191   3.6477581e+09   3.6467278e+09  1.28e+03  5.70e+02  3.02e+03  6.15e-01
+ 192   3.6477105e+09   3.6466946e+09  1.24e+03  5.53e+02  2.85e+03  6.50e-01
+ 193   3.6475023e+09   3.6466366e+09  1.08e+03  4.81e+02  2.56e+03  7.18e-01
+ 194   3.6474107e+09   3.6465835e+09  1.01e+03  4.49e+02  2.29e+03  7.96e-01
+ 195   3.6472865e+09   3.6465633e+09  9.11e+02  4.05e+02  2.19e+03  8.29e-01
+ 196   3.6471647e+09   3.6465302e+09  8.16e+02  3.63e+02  2.03e+03  8.93e-01
+ 197   3.6469834e+09   3.6464748e+09  6.74e+02  3.00e+02  1.75e+03  1.03e+00
+ 198   3.6468619e+09   3.6464422e+09  5.79e+02  2.58e+02  1.59e+03  1.13e+00
+ 199   3.6467756e+09   3.6464060e+09  5.12e+02  2.28e+02  1.41e+03  1.27e+00
+ 200   3.6467020e+09   3.6463769e+09  4.55e+02  2.02e+02  1.27e+03  1.41e+00
+ 201   3.6466898e+09   3.6463580e+09  4.45e+02  1.98e+02  1.18e+03  1.51e+00
+ 202   3.6466404e+09   3.6463341e+09  4.07e+02  1.81e+02  1.07e+03  1.67e+00
+ 203   3.6465711e+09   3.6463201e+09  3.54e+02  1.58e+02  9.99e+02  1.78e+00
+ 204   3.6465632e+09   3.6463143e+09  3.48e+02  1.55e+02  9.72e+02  1.83e+00
+ 205   3.6464861e+09   3.6462927e+09  2.89e+02  1.29e+02  8.71e+02  2.04e+00
+ 206   3.6464292e+09   3.6462742e+09  2.46e+02  1.09e+02  7.84e+02  2.27e+00
+ 207   3.6463840e+09   3.6462621e+09  2.11e+02  9.40e+01  7.27e+02  2.45e+00
+ 208   3.6463579e+09   3.6462567e+09  1.91e+02  8.51e+01  7.01e+02  2.54e+00
+ 209   3.6463328e+09   3.6462432e+09  1.72e+02  7.66e+01  6.38e+02  2.80e+00
+ 210   3.6463217e+09   3.6462375e+09  1.64e+02  7.28e+01  6.11e+02  2.93e+00
+ 211   3.6463119e+09   3.6462312e+09  1.56e+02  6.95e+01  5.82e+02  3.09e+00
+ 212   3.6462731e+09   3.6462142e+09  1.27e+02  5.65e+01  5.03e+02  3.59e+00
+ 213   3.6462661e+09   3.6462030e+09  1.22e+02  5.42e+01  4.53e+02  4.01e+00
+ 214   3.6462239e+09   3.6461954e+09  9.06e+01  4.03e+01  4.19e+02  4.34e+00
+ 215   3.6462197e+09   3.6461902e+09  8.75e+01  3.89e+01  3.96e+02  4.62e+00
+ 216   3.6461934e+09   3.6461839e+09  6.81e+01  3.03e+01  3.68e+02  4.99e+00
+ 217   3.6461772e+09   3.6461804e+09  5.61e+01  2.50e+01  3.52e+02  5.23e+00
+ 218   3.6461722e+09   3.6461751e+09  5.24e+01  2.33e+01  3.28e+02  5.66e+00
+ 219   3.6461657e+09   3.6461714e+09  4.76e+01  2.12e+01  3.12e+02  5.98e+00
+ 220   3.6461609e+09   3.6461676e+09  4.41e+01  1.96e+01  2.95e+02  6.36e+00
+ 221   3.6461493e+09   3.6461576e+09  3.57e+01  1.59e+01  2.52e+02  7.58e+00
+ 222   3.6461424e+09   3.6461523e+09  3.09e+01  1.38e+01  2.29e+02  8.41e+00
+ 223   3.6461337e+09   3.6461444e+09  2.50e+01  1.11e+01  1.96e+02  1.00e+01
+ 224   3.6461269e+09   3.6461405e+09  2.05e+01  9.10e+00  1.80e+02  1.10e+01
+ 225   3.6461231e+09   3.6461349e+09  1.80e+01  7.99e+00  1.58e+02  1.28e+01
+ 226   3.6461217e+09   3.6461321e+09  1.71e+01  7.59e+00  1.47e+02  1.38e+01
+ 227   3.6461177e+09   3.6461279e+09  1.46e+01  6.50e+00  1.31e+02  1.58e+01
+ 228   3.6461151e+09   3.6461256e+09  1.31e+01  5.80e+00  1.22e+02  1.70e+01
+ 229   3.6461097e+09   3.6461208e+09  9.79e+00  4.35e+00  1.04e+02  2.03e+01
+ 230   3.6461088e+09   3.6461188e+09  9.27e+00  4.12e+00  9.66e+01  2.21e+01
+ 231   3.6461060e+09   3.6461173e+09  7.71e+00  3.43e+00  9.10e+01  2.36e+01
+ 232   3.6461054e+09   3.6461156e+09  7.34e+00  3.27e+00  8.47e+01  2.56e+01
+ 233   3.6461016e+09   3.6461081e+09  5.27e+00  2.34e+00  5.78e+01  3.98e+01
+ 234   3.6461005e+09   3.6461063e+09  4.74e+00  2.10e+00  5.17e+01  4.49e+01
+ 235   3.6460990e+09   3.6461038e+09  4.01e+00  1.78e+00  4.35e+01  5.44e+01
+ 236   3.6460943e+09   3.6460985e+09  1.87e+00  8.31e-01  2.64e+01  9.37e+01
+ 237   3.6460926e+09   3.6460957e+09  1.10e+00  4.89e-01  1.77e+01  1.48e+02
+ 238   3.6460919e+09   3.6460944e+09  8.02e-01  3.55e-01  1.35e+01  2.02e+02
+ 239   3.6460918e+09   3.6460942e+09  7.54e-01  3.33e-01  1.31e+01  2.09e+02
+ 240   3.6460915e+09   3.6460939e+09  6.59e-01  2.90e-01  1.21e+01  2.28e+02
+ 241   3.6460914e+09   3.6460935e+09  6.40e-01  2.81e-01  1.10e+01  2.53e+02
+ 242   3.6460910e+09   3.6460918e+09  4.92e-01  2.11e-01  5.88e+00  5.21e+02
+ 243   3.6460907e+09   3.6460914e+09  3.88e-01  1.64e-01  4.85e+00  6.37e+02
+Barrier time = 104.41 sec. (75170.88 ticks)
+Parallel mode: deterministic, using up to 7 threads for concurrent optimization:
+ * Starting dual Simplex on 1 thread...
+ * Starting primal Simplex on 1 thread...
+
+Dual crossover.
+  Dual:  Fixing 436137 variables.
+   436136 DMoves:  Infeasibility  2.12664319e-01  Objective  3.64609118e+09
+   434444 DMoves:  Infeasibility  1.94643913e-01  Objective  3.64609111e+09
+   432316 DMoves:  Infeasibility  1.77646635e-01  Objective  3.64609111e+09
+   430746 DMoves:  Infeasibility  1.60337931e-01  Objective  3.64609108e+09
+   428993 DMoves:  Infeasibility  1.40545368e-01  Objective  3.64609104e+09
+   427432 DMoves:  Infeasibility  1.22572526e-01  Objective  3.64609095e+09
+   425894 DMoves:  Infeasibility  1.11692297e-01  Objective  3.64609098e+09
+   424648 DMoves:  Infeasibility  1.01192597e-01  Objective  3.64609099e+09
+   422635 DMoves:  Infeasibility  5.86157842e+02  Objective  3.64609350e+09
+   417919 DMoves:  Infeasibility  7.34437625e+05  Objective  3.64623110e+09
+   414156 DMoves:  Infeasibility  6.25947762e+05  Objective  3.64642388e+09
+   409741 DMoves:  Infeasibility  5.91963057e+05  Objective  3.64634482e+09
+   404264 DMoves:  Infeasibility  5.83127798e+05  Objective  3.64633716e+09
+   400196 DMoves:  Infeasibility  5.76730834e+05  Objective  3.64630079e+09
+   394339 DMoves:  Infeasibility  5.64262278e+05  Objective  3.64622472e+09
+   381455 DMoves:  Infeasibility  5.44655749e+05  Objective  3.64614114e+09
+   374389 DMoves:  Infeasibility  5.41706313e+05  Objective  3.64612623e+09
+   373786 DMoves:  Infeasibility  5.41706313e+05  Objective  3.64612623e+09
+   Elapsed crossover time = 14.42 sec. (10000.10 ticks, 366299 DMoves)
+   363694 DMoves:  Infeasibility  5.41706313e+05  Objective  3.64612623e+09
+   349460 DMoves:  Infeasibility  5.41706184e+05  Objective  3.64612624e+09
+   348629 DMoves:  Infeasibility  5.41706184e+05  Objective  3.64612624e+09
+   340103 DMoves:  Infeasibility  5.41705324e+05  Objective  3.64612623e+09
+   326017 DMoves:  Infeasibility  5.41705324e+05  Objective  3.64612623e+09
+   318176 DMoves:  Infeasibility  5.41538423e+05  Objective  3.64612598e+09
+   313950 DMoves:  Infeasibility  5.38948650e+05  Objective  3.64611758e+09
+   300645 DMoves:  Infeasibility  5.36621267e+05  Objective  3.64611433e+09
+   296209 DMoves:  Infeasibility  5.30102612e+05  Objective  3.64611204e+09
+   287033 DMoves:  Infeasibility  5.30102612e+05  Objective  3.64611204e+09
+   284190 DMoves:  Infeasibility  5.28135878e+05  Objective  3.64611780e+09
+   281474 DMoves:  Infeasibility  5.28135602e+05  Objective  3.64611872e+09
+   277825 DMoves:  Infeasibility  5.25131184e+05  Objective  3.64611035e+09
+   274119 DMoves:  Infeasibility  5.25131184e+05  Objective  3.64611035e+09
+   271105 DMoves:  Infeasibility  5.25131184e+05  Objective  3.64611035e+09
+   268397 DMoves:  Infeasibility  5.23379027e+05  Objective  3.64610450e+09
+   265235 DMoves:  Infeasibility  5.22859539e+05  Objective  3.64610412e+09
+   262483 DMoves:  Infeasibility  5.21422449e+05  Objective  3.64610278e+09
+   259070 DMoves:  Infeasibility  5.21414706e+05  Objective  3.64610427e+09
+   256160 DMoves:  Infeasibility  5.21414706e+05  Objective  3.64610427e+09
+   252223 DMoves:  Infeasibility  5.11636325e+05  Objective  3.64609905e+09
+   246005 DMoves:  Infeasibility  4.75997748e+05  Objective  3.64609638e+09
+   242350 DMoves:  Infeasibility  4.52219123e+05  Objective  3.64609567e+09
+   235046 DMoves:  Infeasibility  4.17223393e+05  Objective  3.64609266e+09
+   228442 DMoves:  Infeasibility  4.03175673e+05  Objective  3.64608399e+09
+   220553 DMoves:  Infeasibility  4.03175673e+05  Objective  3.64608399e+09
+   212828 DMoves:  Infeasibility  4.03175673e+05  Objective  3.64608399e+09
+   207779 DMoves:  Infeasibility  3.99031658e+05  Objective  3.64608249e+09
+   202058 DMoves:  Infeasibility  3.98749909e+05  Objective  3.64608256e+09
+   197989 DMoves:  Infeasibility  3.98362793e+05  Objective  3.64607869e+09
+   192073 DMoves:  Infeasibility  3.98005816e+05  Objective  3.64610185e+09
+   186740 DMoves:  Infeasibility  3.97995723e+05  Objective  3.64610200e+09
+   179848 DMoves:  Infeasibility  3.97995723e+05  Objective  3.64610200e+09
+   171114 DMoves:  Infeasibility  3.97995723e+05  Objective  3.64610200e+09
+
+Primal simplex solved model.
+
+Total crossover time = 22.86 sec. (17907.90 ticks)
+
+Total time on 7 threads = 132.34 sec. (99863.03 ticks)
+
+--- LP status (1): optimal.
+--- Cplex Time: 132.34sec (det. 99866.30 ticks)
+
+
+Optimal solution found
+Simplex iterations after crossover: 0
+Objective:   3646089549.370604
+
+--- Reading solution for model BALBASE4
+--- Balmorel.gms(98048) 565 Mb  137 secs
+--- GDX Point C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_4_low_low\model\BALBASE4_p.gdx
+--- Executing after solve: elapsed 0:02:47.483
+--- Balmorel.gms(99659) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_4_low_low\model\MainResults.gdx
+--- Balmorel.gms(100005) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\HYRSG.gdx
+--- Balmorel.gms(100006) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\VHYRS_SL.gdx
+--- Balmorel.gms(100007) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\WATERVAL.gdx
+--- Balmorel.gms(100008) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\VHYRS_STL.gdx
+--- Balmorel.gms(100032) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\XKACCUMNET.gdx
+--- Balmorel.gms(100033) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\GKACCUMNET.gdx
+--- Balmorel.gms(100063) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\ESTOVOLTS.gdx
+--- Balmorel.gms(100064) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\HSTOVOLTS.gdx
+--- Balmorel.gms(100065) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\ESTOVOLT.gdx
+--- Balmorel.gms(100066) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\HSTOVOLT.gdx
+--- Balmorel.gms(100071) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\ESTOVOLTSVAL.gdx
+--- Balmorel.gms(100072) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\HSTOVOLTSVAL.gdx
+--- Balmorel.gms(100073) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\ESTOVOLTVAL.gdx
+--- Balmorel.gms(100074) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\HSTOVOLTVAL.gdx
+--- Balmorel.gms(100104) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\GE_T.gdx
+--- Balmorel.gms(100105) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\GH_T.gdx
+--- Balmorel.gms(100122) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\F_T.gdx
+--- Balmorel.gms(100133) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\GMAXFS.gdx
+--- Balmorel.gms(100138) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\FUELPRICE_EXC.gdx
+--- Balmorel.gms(100168) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\H2STOVOLTS.gdx
+--- Balmorel.gms(100169) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\H2STOVOLTSVAL.gdx
+--- Balmorel.gms(100179) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\BIOMETHSTOVOLTS.gdx
+--- Balmorel.gms(100180) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\BIOMETHSTOVOLTSVAL.gdx
+--- Balmorel.gms(100190) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\simex\XH2KACCUMNET.gdx
+--- Balmorel.gms(100238) 565 Mb
+--- GDX File (execute_unload) C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_4_low_low\model\all_endofmodel.gdx
+--- Putfile fileMERGEWITHBASEbat C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_4_low_low\model\%batfileMERGEWITHBASE%
+--- Putfile errorfile C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_4_low_low\logerror\errors.out
+--- Putfile logfile C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_4_low_low\logerror\logfile.out
+--- Putfile printoutoverview C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_4_low_low\output\printout\printoutoverview.out
+--- Putfile BB4overview C:\Users\Bruger\OneDrive\Documents\Master\4. June 2026\Large scale energy system analysis\LSESAub\scenario_4_low_low\logerror\BB4overview.out
+*** Status: Normal completion
+--- Job Balmorel.gms Stop 06/19/26 16:08:46 elapsed 0:02:55.803
